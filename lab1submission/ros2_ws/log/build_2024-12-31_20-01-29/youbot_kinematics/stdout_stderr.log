@@ -1,0 +1,21 @@
+running egg_info
+writing ../../../../build/youbot_kinematics/youbot_kinematics.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/youbot_kinematics/youbot_kinematics.egg-info/dependency_links.txt
+writing entry points to ../../../../build/youbot_kinematics/youbot_kinematics.egg-info/entry_points.txt
+writing requirements to ../../../../build/youbot_kinematics/youbot_kinematics.egg-info/requires.txt
+writing top-level names to ../../../../build/youbot_kinematics/youbot_kinematics.egg-info/top_level.txt
+reading manifest file '../../../../build/youbot_kinematics/youbot_kinematics.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/youbot_kinematics/youbot_kinematics.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../../build/youbot_kinematics/youbot_kinematics.egg-info to /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics-0.0.0-py3.10.egg-info
+running install_scripts
+Installing main_kdl script to /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/youbot_kinematics
+Installing main_student script to /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/youbot_kinematics
+Installing plan_trajectory script to /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/youbot_kinematics
+writing list of installed files to '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/install.log'

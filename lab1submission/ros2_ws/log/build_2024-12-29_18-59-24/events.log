@@ -1,0 +1,781 @@
+[0.000000] (-) TimerEvent: {}
+[0.000385] (franka_description) JobQueued: {'identifier': 'franka_description', 'dependencies': OrderedDict()}
+[0.001202] (py_srvcli) JobQueued: {'identifier': 'py_srvcli', 'dependencies': OrderedDict()}
+[0.001873] (youbot_description) JobQueued: {'identifier': 'youbot_description', 'dependencies': OrderedDict()}
+[0.002451] (transform_helpers) JobQueued: {'identifier': 'transform_helpers', 'dependencies': OrderedDict([('franka_description', '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description')])}
+[0.002835] (youbot_kinematics) JobQueued: {'identifier': 'youbot_kinematics', 'dependencies': OrderedDict([('franka_description', '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description'), ('youbot_description', '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description'), ('transform_helpers', '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers')])}
+[0.003032] (franka_description) JobStarted: {'identifier': 'franka_description'}
+[0.033459] (youbot_description) JobStarted: {'identifier': 'youbot_description'}
+[0.058298] (py_srvcli) JobStarted: {'identifier': 'py_srvcli'}
+[0.080573] (franka_description) JobProgress: {'identifier': 'franka_description', 'progress': 'cmake'}
+[0.088498] (franka_description) Command: {'cmd': ['/Users/davidm/miniforge3/envs/roboenv-py3.10/bin/cmake', '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/src/COMP0246_Labs/franka_description', '-DCMAKE_INSTALL_PREFIX=/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description'], 'cwd': '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/franka_description', 'env': OrderedDict([('TERM_PROGRAM', 'vscode'), ('PROJ_DATA', '/Users/davidm/miniforge3/envs/roboenv-py3.10/share/proj'), ('TERM', 'xterm-256color'), ('SHELL', '/bin/zsh'), ('TMPDIR', '/var/folders/m8/5ddn3xhd6kqf9yk2zhxw0y7h0000gn/T/'), ('CONDA_SHLVL', '2'), ('TERM_PROGRAM_VERSION', '1.84.2'), ('CONDA_PROMPT_MODIFIER', '(roboenv-py3.10)'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('ROS_PYTHON_VERSION', '3'), ('ZDOTDIR', '/Users/davidm'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'undefined'), ('MallocNanoZone', '0'), ('ROS_VERSION', '2'), ('AMENT_PREFIX_PATH', '/Users/davidm/miniforge3/envs/roboenv-py3.10'), ('USER', 'davidm'), ('COMMAND_MODE', 'unix2003'), ('CONDA_EXE', '/Users/davidm/miniforge3/bin/conda'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.B4Yc5TeF1v/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F5:0x0:0x0'), ('ROS_OS_OVERRIDE', 'conda:osx'), ('_CE_CONDA', ''), ('CONDA_PREFIX_1', '/Users/davidm/miniforge3'), ('PATH', '/Library/Frameworks/Python.framework/Versions/3.12/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/TeX/texbin:/Users/davidm/miniforge3/envs/roboenv-py3.10/bin:/Users/davidm/miniforge3/condabin:/Library/Frameworks/Python.framework/Versions/3.12/bin'), ('PROJ_NETWORK', 'ON'), ('GSETTINGS_SCHEMA_DIR', '/Users/davidm/miniforge3/envs/roboenv-py3.10/share/glib-2.0/schemas'), ('XML_CATALOG_FILES', 'file:///Users/davidm/miniforge3/envs/roboenv-py3.10/etc/xml/catalog file:///etc/xml/catalog'), ('USER_ZDOTDIR', '/Users/davidm'), ('CONDA_PREFIX', '/Users/davidm/miniforge3/envs/roboenv-py3.10'), ('__CFBundleIdentifier', 'com.microsoft.VSCode'), ('PWD', '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/franka_description'), ('COLCON', '1'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('XPC_FLAGS', '0x0'), ('_CE_M', ''), ('XPC_SERVICE_NAME', '0'), ('VSCODE_INJECTION', '1'), ('SHLVL', '2'), ('HOME', '/Users/davidm'), ('ROS_DISTRO', 'humble'), ('VSCODE_GIT_ASKPASS_MAIN', '/private/var/folders/m8/5ddn3xhd6kqf9yk2zhxw0y7h0000gn/T/AppTranslocation/EFAF3925-CF2D-4400-94D2-9D43E2D7A2BA/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js'), ('PYTHONPATH', '/Users/davidm/miniforge3/envs/roboenv-py3.10/lib/python310/site-packages:/Users/davidm/miniforge3/envs/roboenv-py3.10/lib/python3.10/site-packages'), ('CONDA_PYTHON_EXE', '/Users/davidm/miniforge3/bin/python'), ('LOGNAME', 'davidm'), ('VSCODE_GIT_IPC_HANDLE', '/var/folders/m8/5ddn3xhd6kqf9yk2zhxw0y7h0000gn/T/vscode-git-f75fa4bcd6.sock'), ('CONDA_DEFAULT_ENV', 'roboenv-py3.10'), ('VSCODE_GIT_ASKPASS_NODE', '/private/var/folders/m8/5ddn3xhd6kqf9yk2zhxw0y7h0000gn/T/AppTranslocation/EFAF3925-CF2D-4400-94D2-9D43E2D7A2BA/d/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)'), ('GIT_ASKPASS', '/private/var/folders/m8/5ddn3xhd6kqf9yk2zhxw0y7h0000gn/T/AppTranslocation/EFAF3925-CF2D-4400-94D2-9D43E2D7A2BA/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh'), ('ROS_LOCALHOST_ONLY', '0'), ('ROS_ETC_DIR', '/Users/davidm/miniforge3/envs/roboenv-py3.10/etc/ros'), ('COLORTERM', 'truecolor'), ('_', '/usr/bin/env'), ('CMAKE_PREFIX_PATH', '/Users/davidm/miniforge3/envs/roboenv-py3.10')]), 'shell': False}
+[0.102579] (-) TimerEvent: {}
+[0.214196] (-) TimerEvent: {}
+[0.316229] (-) TimerEvent: {}
+[0.416823] (-) TimerEvent: {}
+[0.520966] (-) TimerEvent: {}
+[0.622605] (-) TimerEvent: {}
+[0.724135] (-) TimerEvent: {}
+[0.829594] (-) TimerEvent: {}
+[0.933095] (-) TimerEvent: {}
+[1.033839] (-) TimerEvent: {}
+[1.134794] (-) TimerEvent: {}
+[1.235171] (-) TimerEvent: {}
+[1.337223] (-) TimerEvent: {}
+[1.439793] (-) TimerEvent: {}
+[1.540129] (-) TimerEvent: {}
+[1.643349] (-) TimerEvent: {}
+[1.746334] (-) TimerEvent: {}
+[1.848888] (-) TimerEvent: {}
+[1.949875] (-) TimerEvent: {}
+[2.050325] (-) TimerEvent: {}
+[2.154547] (-) TimerEvent: {}
+[2.259895] (-) TimerEvent: {}
+[2.361340] (-) TimerEvent: {}
+[2.461797] (-) TimerEvent: {}
+[2.564175] (-) TimerEvent: {}
+[2.664566] (-) TimerEvent: {}
+[2.765690] (-) TimerEvent: {}
+[2.866235] (-) TimerEvent: {}
+[2.966899] (-) TimerEvent: {}
+[3.067475] (-) TimerEvent: {}
+[3.170885] (-) TimerEvent: {}
+[3.271923] (-) TimerEvent: {}
+[3.377355] (-) TimerEvent: {}
+[3.478910] (-) TimerEvent: {}
+[3.583014] (-) TimerEvent: {}
+[3.684006] (-) TimerEvent: {}
+[3.789104] (-) TimerEvent: {}
+[3.889681] (-) TimerEvent: {}
+[3.990837] (-) TimerEvent: {}
+[4.092040] (-) TimerEvent: {}
+[4.194888] (-) TimerEvent: {}
+[4.295496] (-) TimerEvent: {}
+[4.396411] (-) TimerEvent: {}
+[4.497484] (-) TimerEvent: {}
+[4.598453] (-) TimerEvent: {}
+[4.699142] (-) TimerEvent: {}
+[4.799967] (-) TimerEvent: {}
+[4.901791] (-) TimerEvent: {}
+[5.003464] (-) TimerEvent: {}
+[5.103907] (-) TimerEvent: {}
+[5.207877] (-) TimerEvent: {}
+[5.265257] (py_srvcli) Command: {'cmd': ['/Users/davidm/miniforge3/envs/roboenv-py3.10/bin/python', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/py_srvcli', 'build', '--build-base', '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/py_srvcli/build', 'install', '--record', '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/py_srvcli/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/src/COMP0246_Labs/py_srvcli', 'env': {'TERM_PROGRAM': 'vscode', 'PROJ_DATA': '/Users/davidm/miniforge3/envs/roboenv-py3.10/share/proj', 'TERM': 'xterm-256color', 'SHELL': '/bin/zsh', 'TMPDIR': '/var/folders/m8/5ddn3xhd6kqf9yk2zhxw0y7h0000gn/T/', 'CONDA_SHLVL': '2', 'TERM_PROGRAM_VERSION': '1.84.2', 'CONDA_PROMPT_MODIFIER': '(roboenv-py3.10)', 'GSETTINGS_SCHEMA_DIR_CONDA_BACKUP': '', 'ROS_PYTHON_VERSION': '3', 'ZDOTDIR': '/Users/davidm', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'undefined', 'MallocNanoZone': '0', 'ROS_VERSION': '2', 'AMENT_PREFIX_PATH': '/Users/davidm/miniforge3/envs/roboenv-py3.10', 'USER': 'davidm', 'COMMAND_MODE': 'unix2003', 'CONDA_EXE': '/Users/davidm/miniforge3/bin/conda', 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.B4Yc5TeF1v/Listeners', '__CF_USER_TEXT_ENCODING': '0x1F5:0x0:0x0', 'ROS_OS_OVERRIDE': 'conda:osx', '_CE_CONDA': '', 'CONDA_PREFIX_1': '/Users/davidm/miniforge3', 'PATH': '/Library/Frameworks/Python.framework/Versions/3.12/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/TeX/texbin:/Users/davidm/miniforge3/envs/roboenv-py3.10/bin:/Users/davidm/miniforge3/condabin:/Library/Frameworks/Python.framework/Versions/3.12/bin', 'PROJ_NETWORK': 'ON', 'GSETTINGS_SCHEMA_DIR': '/Users/davidm/miniforge3/envs/roboenv-py3.10/share/glib-2.0/schemas', 'XML_CATALOG_FILES': 'file:///Users/davidm/miniforge3/envs/roboenv-py3.10/etc/xml/catalog file:///etc/xml/catalog', 'USER_ZDOTDIR': '/Users/davidm', 'CONDA_PREFIX': '/Users/davidm/miniforge3/envs/roboenv-py3.10', '__CFBundleIdentifier': 'com.microsoft.VSCode', 'PWD': '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/py_srvcli', 'COLCON': '1', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'XPC_FLAGS': '0x0', '_CE_M': '', 'XPC_SERVICE_NAME': '0', 'VSCODE_INJECTION': '1', 'SHLVL': '2', 'HOME': '/Users/davidm', 'ROS_DISTRO': 'humble', 'VSCODE_GIT_ASKPASS_MAIN': '/private/var/folders/m8/5ddn3xhd6kqf9yk2zhxw0y7h0000gn/T/AppTranslocation/EFAF3925-CF2D-4400-94D2-9D43E2D7A2BA/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js', 'PYTHONPATH': '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/py_srvcli/prefix_override:/Users/davidm/miniforge3/envs/roboenv-py3.10/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/Users/davidm/miniforge3/envs/roboenv-py3.10/lib/python310/site-packages:/Users/davidm/miniforge3/envs/roboenv-py3.10/lib/python3.10/site-packages', 'CONDA_PYTHON_EXE': '/Users/davidm/miniforge3/bin/python', 'LOGNAME': 'davidm', 'VSCODE_GIT_IPC_HANDLE': '/var/folders/m8/5ddn3xhd6kqf9yk2zhxw0y7h0000gn/T/vscode-git-f75fa4bcd6.sock', 'CONDA_DEFAULT_ENV': 'roboenv-py3.10', 'VSCODE_GIT_ASKPASS_NODE': '/private/var/folders/m8/5ddn3xhd6kqf9yk2zhxw0y7h0000gn/T/AppTranslocation/EFAF3925-CF2D-4400-94D2-9D43E2D7A2BA/d/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)', 'GIT_ASKPASS': '/private/var/folders/m8/5ddn3xhd6kqf9yk2zhxw0y7h0000gn/T/AppTranslocation/EFAF3925-CF2D-4400-94D2-9D43E2D7A2BA/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh', 'ROS_LOCALHOST_ONLY': '0', 'ROS_ETC_DIR': '/Users/davidm/miniforge3/envs/roboenv-py3.10/etc/ros', 'COLORTERM': 'truecolor', '_': '/usr/bin/env'}, 'shell': False}
+[5.283415] (youbot_description) Command: {'cmd': ['/Users/davidm/miniforge3/envs/roboenv-py3.10/bin/python', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../../build/youbot_description', 'build', '--build-base', '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_description/build', 'install', '--record', '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_description/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/src/COMP0246_Labs/final_lab/youbot_description', 'env': {'TERM_PROGRAM': 'vscode', 'PROJ_DATA': '/Users/davidm/miniforge3/envs/roboenv-py3.10/share/proj', 'TERM': 'xterm-256color', 'SHELL': '/bin/zsh', 'TMPDIR': '/var/folders/m8/5ddn3xhd6kqf9yk2zhxw0y7h0000gn/T/', 'CONDA_SHLVL': '2', 'TERM_PROGRAM_VERSION': '1.84.2', 'CONDA_PROMPT_MODIFIER': '(roboenv-py3.10)', 'GSETTINGS_SCHEMA_DIR_CONDA_BACKUP': '', 'ROS_PYTHON_VERSION': '3', 'ZDOTDIR': '/Users/davidm', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'undefined', 'MallocNanoZone': '0', 'ROS_VERSION': '2', 'AMENT_PREFIX_PATH': '/Users/davidm/miniforge3/envs/roboenv-py3.10', 'USER': 'davidm', 'COMMAND_MODE': 'unix2003', 'CONDA_EXE': '/Users/davidm/miniforge3/bin/conda', 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.B4Yc5TeF1v/Listeners', '__CF_USER_TEXT_ENCODING': '0x1F5:0x0:0x0', 'ROS_OS_OVERRIDE': 'conda:osx', '_CE_CONDA': '', 'CONDA_PREFIX_1': '/Users/davidm/miniforge3', 'PATH': '/Library/Frameworks/Python.framework/Versions/3.12/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/TeX/texbin:/Users/davidm/miniforge3/envs/roboenv-py3.10/bin:/Users/davidm/miniforge3/condabin:/Library/Frameworks/Python.framework/Versions/3.12/bin', 'PROJ_NETWORK': 'ON', 'GSETTINGS_SCHEMA_DIR': '/Users/davidm/miniforge3/envs/roboenv-py3.10/share/glib-2.0/schemas', 'XML_CATALOG_FILES': 'file:///Users/davidm/miniforge3/envs/roboenv-py3.10/etc/xml/catalog file:///etc/xml/catalog', 'USER_ZDOTDIR': '/Users/davidm', 'CONDA_PREFIX': '/Users/davidm/miniforge3/envs/roboenv-py3.10', '__CFBundleIdentifier': 'com.microsoft.VSCode', 'PWD': '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_description', 'COLCON': '1', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'XPC_FLAGS': '0x0', '_CE_M': '', 'XPC_SERVICE_NAME': '0', 'VSCODE_INJECTION': '1', 'SHLVL': '2', 'HOME': '/Users/davidm', 'ROS_DISTRO': 'humble', 'VSCODE_GIT_ASKPASS_MAIN': '/private/var/folders/m8/5ddn3xhd6kqf9yk2zhxw0y7h0000gn/T/AppTranslocation/EFAF3925-CF2D-4400-94D2-9D43E2D7A2BA/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js', 'PYTHONPATH': '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_description/prefix_override:/Users/davidm/miniforge3/envs/roboenv-py3.10/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/lib/python3.10/site-packages:/Users/davidm/miniforge3/envs/roboenv-py3.10/lib/python310/site-packages:/Users/davidm/miniforge3/envs/roboenv-py3.10/lib/python3.10/site-packages', 'CONDA_PYTHON_EXE': '/Users/davidm/miniforge3/bin/python', 'LOGNAME': 'davidm', 'VSCODE_GIT_IPC_HANDLE': '/var/folders/m8/5ddn3xhd6kqf9yk2zhxw0y7h0000gn/T/vscode-git-f75fa4bcd6.sock', 'CONDA_DEFAULT_ENV': 'roboenv-py3.10', 'VSCODE_GIT_ASKPASS_NODE': '/private/var/folders/m8/5ddn3xhd6kqf9yk2zhxw0y7h0000gn/T/AppTranslocation/EFAF3925-CF2D-4400-94D2-9D43E2D7A2BA/d/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)', 'GIT_ASKPASS': '/private/var/folders/m8/5ddn3xhd6kqf9yk2zhxw0y7h0000gn/T/AppTranslocation/EFAF3925-CF2D-4400-94D2-9D43E2D7A2BA/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh', 'ROS_LOCALHOST_ONLY': '0', 'ROS_ETC_DIR': '/Users/davidm/miniforge3/envs/roboenv-py3.10/etc/ros', 'COLORTERM': 'truecolor', '_': '/usr/bin/env'}, 'shell': False}
+[5.308088] (-) TimerEvent: {}
+[5.412311] (-) TimerEvent: {}
+[5.515232] (-) TimerEvent: {}
+[5.615613] (-) TimerEvent: {}
+[5.716400] (-) TimerEvent: {}
+[5.816951] (-) TimerEvent: {}
+[5.917864] (-) TimerEvent: {}
+[6.023206] (-) TimerEvent: {}
+[6.123522] (-) TimerEvent: {}
+[6.226649] (-) TimerEvent: {}
+[6.328081] (-) TimerEvent: {}
+[6.429313] (-) TimerEvent: {}
+[6.530184] (-) TimerEvent: {}
+[6.631263] (-) TimerEvent: {}
+[6.731661] (-) TimerEvent: {}
+[6.836577] (-) TimerEvent: {}
+[6.879705] (py_srvcli) StdoutLine: {'line': b'running egg_info\n'}
+[6.880400] (py_srvcli) StdoutLine: {'line': b'creating ../../../build/py_srvcli/py_srvcli.egg-info\n'}
+[6.893208] (youbot_description) StdoutLine: {'line': b'running egg_info\n'}
+[6.894259] (youbot_description) StdoutLine: {'line': b'creating ../../../../build/youbot_description/youbot_description.egg-info\n'}
+[6.937615] (-) TimerEvent: {}
+[6.985723] (py_srvcli) StdoutLine: {'line': b'writing ../../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO\n'}
+[7.000880] (youbot_description) StdoutLine: {'line': b'writing ../../../../build/youbot_description/youbot_description.egg-info/PKG-INFO\n'}
+[7.039232] (-) TimerEvent: {}
+[7.066313] (py_srvcli) StdoutLine: {'line': b'writing dependency_links to ../../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt\n'}
+[7.078732] (youbot_description) StdoutLine: {'line': b'writing dependency_links to ../../../../build/youbot_description/youbot_description.egg-info/dependency_links.txt\n'}
+[7.139859] (-) TimerEvent: {}
+[7.240226] (-) TimerEvent: {}
+[7.317844] (py_srvcli) StdoutLine: {'line': b'writing entry points to ../../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt\n'}
+[7.340930] (-) TimerEvent: {}
+[7.445729] (-) TimerEvent: {}
+[7.478516] (py_srvcli) StdoutLine: {'line': b'writing requirements to ../../../build/py_srvcli/py_srvcli.egg-info/requires.txt\n'}
+[7.486195] (youbot_description) StdoutLine: {'line': b'writing requirements to ../../../../build/youbot_description/youbot_description.egg-info/requires.txt\n'}
+[7.546056] (-) TimerEvent: {}
+[7.560038] (py_srvcli) StdoutLine: {'line': b'writing top-level names to ../../../build/py_srvcli/py_srvcli.egg-info/top_level.txt\n'}
+[7.560403] (py_srvcli) StdoutLine: {'line': b"writing manifest file '../../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[7.565442] (youbot_description) StdoutLine: {'line': b'writing top-level names to ../../../../build/youbot_description/youbot_description.egg-info/top_level.txt\n'}
+[7.565809] (youbot_description) StdoutLine: {'line': b"writing manifest file '../../../../build/youbot_description/youbot_description.egg-info/SOURCES.txt'\n"}
+[7.647772] (-) TimerEvent: {}
+[7.694397] (py_srvcli) StdoutLine: {'line': b"reading manifest file '../../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[7.694941] (py_srvcli) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[7.695986] (py_srvcli) StdoutLine: {'line': b"writing manifest file '../../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[7.696550] (py_srvcli) StdoutLine: {'line': b'running build\n'}
+[7.696887] (py_srvcli) StdoutLine: {'line': b'running build_py\n'}
+[7.697431] (py_srvcli) StdoutLine: {'line': b'creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/py_srvcli/build\n'}
+[7.697770] (py_srvcli) StdoutLine: {'line': b'creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/py_srvcli/build/lib\n'}
+[7.697932] (py_srvcli) StdoutLine: {'line': b'creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/py_srvcli/build/lib/py_srvcli\n'}
+[7.698067] (py_srvcli) StdoutLine: {'line': b'copying py_srvcli/service_member_function.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/py_srvcli/build/lib/py_srvcli\n'}
+[7.698547] (py_srvcli) StdoutLine: {'line': b'copying py_srvcli/__init__.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/py_srvcli/build/lib/py_srvcli\n'}
+[7.699025] (py_srvcli) StdoutLine: {'line': b'copying py_srvcli/client_member_function.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/py_srvcli/build/lib/py_srvcli\n'}
+[7.700321] (py_srvcli) StdoutLine: {'line': b'running install\n'}
+[7.704042] (youbot_description) StdoutLine: {'line': b"reading manifest file '../../../../build/youbot_description/youbot_description.egg-info/SOURCES.txt'\n"}
+[7.705978] (youbot_description) StdoutLine: {'line': b"writing manifest file '../../../../build/youbot_description/youbot_description.egg-info/SOURCES.txt'\n"}
+[7.706678] (youbot_description) StdoutLine: {'line': b'running build\n'}
+[7.707271] (youbot_description) StdoutLine: {'line': b'running build_py\n'}
+[7.707569] (youbot_description) StdoutLine: {'line': b'creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_description/build\n'}
+[7.707752] (youbot_description) StdoutLine: {'line': b'creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_description/build/lib\n'}
+[7.708189] (youbot_description) StdoutLine: {'line': b'creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_description/build/lib/youbot_description\n'}
+[7.708348] (youbot_description) StdoutLine: {'line': b'copying youbot_description/__init__.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_description/build/lib/youbot_description\n'}
+[7.708488] (youbot_description) StdoutLine: {'line': b'running install\n'}
+[7.709485] (py_srvcli) StdoutLine: {'line': b'running install_lib\n'}
+[7.715478] (youbot_description) StdoutLine: {'line': b'running install_lib\n'}
+[7.751468] (-) TimerEvent: {}
+[7.838768] (py_srvcli) StdoutLine: {'line': b'creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli\n'}
+[7.839042] (py_srvcli) StdoutLine: {'line': b'copying /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli\n'}
+[7.839524] (py_srvcli) StdoutLine: {'line': b'copying /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/py_srvcli/build/lib/py_srvcli/__init__.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli\n'}
+[7.840186] (py_srvcli) StdoutLine: {'line': b'copying /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/py_srvcli/build/lib/py_srvcli/client_member_function.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli\n'}
+[7.841763] (py_srvcli) StdoutLine: {'line': b'byte-compiling /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-310.pyc\n'}
+[7.844267] (py_srvcli) StdoutLine: {'line': b'byte-compiling /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/__init__.py to __init__.cpython-310.pyc\n'}
+[7.845658] (py_srvcli) StdoutLine: {'line': b'byte-compiling /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/client_member_function.py to client_member_function.cpython-310.pyc\n'}
+[7.847361] (py_srvcli) StdoutLine: {'line': b'running install_data\n'}
+[7.852429] (py_srvcli) StdoutLine: {'line': b'creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/py_srvcli/share/ament_index\n'}
+[7.853217] (-) TimerEvent: {}
+[7.855961] (py_srvcli) StdoutLine: {'line': b'creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/py_srvcli/share/ament_index/resource_index\n'}
+[7.856368] (py_srvcli) StdoutLine: {'line': b'creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/py_srvcli/share/ament_index/resource_index/packages\n'}
+[7.856731] (py_srvcli) StdoutLine: {'line': b'copying resource/py_srvcli -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/py_srvcli/share/ament_index/resource_index/packages\n'}
+[7.856895] (py_srvcli) StdoutLine: {'line': b'copying package.xml -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/py_srvcli/share/py_srvcli\n'}
+[7.857926] (py_srvcli) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.858188] (youbot_description) StdoutLine: {'line': b'creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/lib/python3.10/site-packages/youbot_description\n'}
+[7.858372] (youbot_description) StdoutLine: {'line': b'copying /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_description/build/lib/youbot_description/__init__.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/lib/python3.10/site-packages/youbot_description\n'}
+[7.859948] (youbot_description) StdoutLine: {'line': b'byte-compiling /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/lib/python3.10/site-packages/youbot_description/__init__.py to __init__.cpython-310.pyc\n'}
+[7.860447] (youbot_description) StdoutLine: {'line': b'running install_data\n'}
+[7.860673] (youbot_description) StdoutLine: {'line': b'creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/ament_index\n'}
+[7.860898] (youbot_description) StdoutLine: {'line': b'creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/ament_index/resource_index\n'}
+[7.861229] (youbot_description) StdoutLine: {'line': b'creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/ament_index/resource_index/packages\n'}
+[7.861977] (youbot_description) StdoutLine: {'line': b'copying resource/youbot_description -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/ament_index/resource_index/packages\n'}
+[7.863713] (youbot_description) StdoutLine: {'line': b'copying package.xml -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description\n'}
+[7.865032] (youbot_description) StdoutLine: {'line': b'creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/urdfs\n'}
+[7.866290] (youbot_description) StdoutLine: {'line': b'copying urdfs/youbot.urdf -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/urdfs\n'}
+[7.870173] (youbot_description) StdoutLine: {'line': b'creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes\n'}
+[7.870418] (youbot_description) StdoutLine: {'line': b'creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/sensors\n'}
+[7.870579] (youbot_description) StdoutLine: {'line': b'copying meshes/sensors/asus_xtion_pro_live_base.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/sensors\n'}
+[7.874221] (youbot_description) StdoutLine: {'line': b'copying meshes/sensors/hokuyo_convex.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/sensors\n'}
+[7.875926] (youbot_description) StdoutLine: {'line': b'copying meshes/sensors/asus_xtion_pro_live_camera.png -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/sensors\n'}
+[7.878606] (youbot_description) StdoutLine: {'line': b'copying meshes/sensors/kinect.tga -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/sensors\n'}
+[7.881873] (youbot_description) StdoutLine: {'line': b'copying meshes/sensors/asus_xtion_pro_live_camera.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/sensors\n'}
+[7.886275] (youbot_description) StdoutLine: {'line': b'copying meshes/sensors/hokuyo.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/sensors\n'}
+[7.892760] (youbot_description) StdoutLine: {'line': b'copying meshes/sensors/asus_xtion_pro_live_base.png -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/sensors\n'}
+[7.894108] (youbot_description) StdoutLine: {'line': b'copying meshes/sensors/microsoft_lifecam.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/sensors\n'}
+[7.897451] (youbot_description) StdoutLine: {'line': b'copying meshes/sensors/kinect.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/sensors\n'}
+[7.907566] (youbot_description) StdoutLine: {'line': b'creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_plate\n'}
+[7.909008] (youbot_description) StdoutLine: {'line': b'copying meshes/youbot_plate/plate_convex.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_plate\n'}
+[7.910439] (youbot_description) StdoutLine: {'line': b'copying meshes/youbot_plate/plate.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_plate\n'}
+[7.915852] (youbot_description) StdoutLine: {'line': b'creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_arm\n'}
+[7.916111] (youbot_description) StdoutLine: {'line': b'copying meshes/youbot_arm/arm1.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_arm\n'}
+[7.929864] (youbot_description) StdoutLine: {'line': b'copying meshes/youbot_arm/arm0.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_arm\n'}
+[7.936193] (youbot_description) StdoutLine: {'line': b'copying meshes/youbot_arm/arm2.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_arm\n'}
+[7.943027] (youbot_description) StdoutLine: {'line': b'copying meshes/youbot_arm/arm3.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_arm\n'}
+[7.948736] (youbot_description) StdoutLine: {'line': b'copying meshes/youbot_arm/arm0_convex.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_arm\n'}
+[7.950602] (youbot_description) StdoutLine: {'line': b'copying meshes/youbot_arm/arm5_convex.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_arm\n'}
+[7.952394] (youbot_description) StdoutLine: {'line': b'copying meshes/youbot_arm/arm4.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_arm\n'}
+[7.953400] (-) TimerEvent: {}
+[7.956073] (youbot_description) StdoutLine: {'line': b'copying meshes/youbot_arm/arm5.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_arm\n'}
+[7.958472] (youbot_description) StdoutLine: {'line': b'copying meshes/youbot_arm/arm2_convex.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_arm\n'}
+[7.961870] (youbot_description) StdoutLine: {'line': b'copying meshes/youbot_arm/arm4_convex.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_arm\n'}
+[7.964821] (youbot_description) StdoutLine: {'line': b'copying meshes/youbot_arm/arm1_convex.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_arm\n'}
+[7.967161] (youbot_description) StdoutLine: {'line': b'copying meshes/youbot_arm/arm3_convex.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_arm\n'}
+[7.970060] (youbot_description) StdoutLine: {'line': b'creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_gripper\n'}
+[7.970548] (youbot_description) StdoutLine: {'line': b'copying meshes/youbot_gripper/palm_convex.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_gripper\n'}
+[7.973419] (youbot_description) StdoutLine: {'line': b'copying meshes/youbot_gripper/finger_convex.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_gripper\n'}
+[7.975440] (youbot_description) StdoutLine: {'line': b'copying meshes/youbot_gripper/palm.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_gripper\n'}
+[7.979311] (youbot_description) StdoutLine: {'line': b'copying meshes/youbot_gripper/finger.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_gripper\n'}
+[7.981577] (youbot_description) StdoutLine: {'line': b'creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_base\n'}
+[7.982298] (youbot_description) StdoutLine: {'line': b'copying meshes/youbot_base/base.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_base\n'}
+[7.989075] (youbot_description) StdoutLine: {'line': b'copying meshes/youbot_base/base_convex.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_base\n'}
+[7.990656] (youbot_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.049270] (py_srvcli) StdoutLine: {'line': b'Copying ../../../build/py_srvcli/py_srvcli.egg-info to /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info\n'}
+[8.053891] (-) TimerEvent: {}
+[8.055143] (py_srvcli) StdoutLine: {'line': b'running install_scripts\n'}
+[8.129911] (youbot_description) StdoutLine: {'line': b'Copying ../../../../build/youbot_description/youbot_description.egg-info to /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/lib/python3.10/site-packages/youbot_description-0.0.0-py3.10.egg-info\n'}
+[8.134966] (youbot_description) StdoutLine: {'line': b'running install_scripts\n'}
+[8.157566] (-) TimerEvent: {}
+[8.259620] (-) TimerEvent: {}
+[8.300073] (py_srvcli) StdoutLine: {'line': b'Installing client script to /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/py_srvcli/lib/py_srvcli\n'}
+[8.301140] (py_srvcli) StdoutLine: {'line': b'Installing service script to /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/py_srvcli/lib/py_srvcli\n'}
+[8.302486] (py_srvcli) StdoutLine: {'line': b"writing list of installed files to '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/py_srvcli/install.log'\n"}
+[8.364391] (-) TimerEvent: {}
+[8.371834] (py_srvcli) CommandEnded: {'returncode': 0}
+[8.416223] (py_srvcli) JobEnded: {'identifier': 'py_srvcli', 'rc': 0}
+[8.418661] (youbot_description) StdoutLine: {'line': b"writing list of installed files to '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_description/install.log'\n"}
+[8.456173] (youbot_description) CommandEnded: {'returncode': 0}
+[8.465092] (-) TimerEvent: {}
+[8.466389] (youbot_description) JobEnded: {'identifier': 'youbot_description', 'rc': 0}
+[8.569127] (-) TimerEvent: {}
+[8.671458] (-) TimerEvent: {}
+[8.772234] (-) TimerEvent: {}
+[8.874104] (-) TimerEvent: {}
+[8.977337] (-) TimerEvent: {}
+[9.081168] (-) TimerEvent: {}
+[9.182654] (-) TimerEvent: {}
+[9.284402] (-) TimerEvent: {}
+[9.385314] (-) TimerEvent: {}
+[9.485727] (-) TimerEvent: {}
+[9.586374] (-) TimerEvent: {}
+[9.687162] (-) TimerEvent: {}
+[9.788948] (-) TimerEvent: {}
+[9.894054] (-) TimerEvent: {}
+[9.995050] (-) TimerEvent: {}
+[10.095735] (-) TimerEvent: {}
+[10.196223] (-) TimerEvent: {}
+[10.297143] (-) TimerEvent: {}
+[10.397509] (-) TimerEvent: {}
+[10.498372] (-) TimerEvent: {}
+[10.603025] (-) TimerEvent: {}
+[10.707633] (-) TimerEvent: {}
+[10.810342] (-) TimerEvent: {}
+[10.915255] (-) TimerEvent: {}
+[11.016834] (-) TimerEvent: {}
+[11.119124] (-) TimerEvent: {}
+[11.223722] (-) TimerEvent: {}
+[11.326555] (-) TimerEvent: {}
+[11.428237] (-) TimerEvent: {}
+[11.533225] (-) TimerEvent: {}
+[11.634062] (-) TimerEvent: {}
+[11.735122] (-) TimerEvent: {}
+[11.835672] (-) TimerEvent: {}
+[11.939596] (-) TimerEvent: {}
+[12.043597] (-) TimerEvent: {}
+[12.146687] (-) TimerEvent: {}
+[12.248193] (-) TimerEvent: {}
+[12.349099] (-) TimerEvent: {}
+[12.450140] (-) TimerEvent: {}
+[12.551285] (-) TimerEvent: {}
+[12.652199] (-) TimerEvent: {}
+[12.752850] (-) TimerEvent: {}
+[12.857647] (-) TimerEvent: {}
+[12.960364] (-) TimerEvent: {}
+[13.060857] (-) TimerEvent: {}
+[13.164923] (-) TimerEvent: {}
+[13.265522] (-) TimerEvent: {}
+[13.366338] (-) TimerEvent: {}
+[13.467702] (-) TimerEvent: {}
+[13.568170] (-) TimerEvent: {}
+[13.668500] (-) TimerEvent: {}
+[13.769473] (-) TimerEvent: {}
+[13.870091] (-) TimerEvent: {}
+[13.970553] (-) TimerEvent: {}
+[14.073308] (-) TimerEvent: {}
+[14.177481] (-) TimerEvent: {}
+[14.279053] (-) TimerEvent: {}
+[14.384691] (-) TimerEvent: {}
+[14.486140] (-) TimerEvent: {}
+[14.590835] (-) TimerEvent: {}
+[14.691438] (-) TimerEvent: {}
+[14.796909] (-) TimerEvent: {}
+[14.897553] (-) TimerEvent: {}
+[15.000261] (-) TimerEvent: {}
+[15.103002] (-) TimerEvent: {}
+[15.207604] (-) TimerEvent: {}
+[15.313220] (-) TimerEvent: {}
+[15.414955] (-) TimerEvent: {}
+[15.515492] (-) TimerEvent: {}
+[15.619953] (-) TimerEvent: {}
+[15.721198] (-) TimerEvent: {}
+[15.823129] (-) TimerEvent: {}
+[15.925181] (-) TimerEvent: {}
+[16.028222] (-) TimerEvent: {}
+[16.128677] (-) TimerEvent: {}
+[16.233992] (-) TimerEvent: {}
+[16.334619] (-) TimerEvent: {}
+[16.436252] (-) TimerEvent: {}
+[16.539859] (-) TimerEvent: {}
+[16.640792] (-) TimerEvent: {}
+[16.743020] (-) TimerEvent: {}
+[16.844394] (-) TimerEvent: {}
+[16.944802] (-) TimerEvent: {}
+[17.046124] (-) TimerEvent: {}
+[17.146707] (-) TimerEvent: {}
+[17.247340] (-) TimerEvent: {}
+[17.348734] (-) TimerEvent: {}
+[17.449139] (-) TimerEvent: {}
+[17.549511] (-) TimerEvent: {}
+[17.651288] (-) TimerEvent: {}
+[17.752725] (-) TimerEvent: {}
+[17.857594] (-) TimerEvent: {}
+[17.962829] (-) TimerEvent: {}
+[18.068056] (-) TimerEvent: {}
+[18.168486] (-) TimerEvent: {}
+[18.269380] (-) TimerEvent: {}
+[18.373035] (-) TimerEvent: {}
+[18.474178] (-) TimerEvent: {}
+[18.576678] (-) TimerEvent: {}
+[18.677599] (-) TimerEvent: {}
+[18.778037] (-) TimerEvent: {}
+[18.878393] (-) TimerEvent: {}
+[18.981028] (-) TimerEvent: {}
+[19.081740] (-) TimerEvent: {}
+[19.184483] (-) TimerEvent: {}
+[19.289713] (-) TimerEvent: {}
+[19.397376] (-) TimerEvent: {}
+[19.432547] (franka_description) StdoutLine: {'line': b'-- The C compiler identification is AppleClang 15.0.0.15000040\n'}
+[19.498118] (-) TimerEvent: {}
+[19.600180] (-) TimerEvent: {}
+[19.700925] (-) TimerEvent: {}
+[19.778994] (franka_description) StdoutLine: {'line': b'-- The CXX compiler identification is AppleClang 15.0.0.15000040\n'}
+[19.801373] (franka_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[19.801634] (-) TimerEvent: {}
+[19.902076] (-) TimerEvent: {}
+[20.003069] (-) TimerEvent: {}
+[20.107582] (-) TimerEvent: {}
+[20.212902] (-) TimerEvent: {}
+[20.315493] (-) TimerEvent: {}
+[20.415927] (-) TimerEvent: {}
+[20.521285] (-) TimerEvent: {}
+[20.622025] (-) TimerEvent: {}
+[20.722397] (-) TimerEvent: {}
+[20.824276] (-) TimerEvent: {}
+[20.846327] (franka_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[20.859162] (franka_description) StdoutLine: {'line': b'-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - skipped\n'}
+[20.859629] (franka_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[20.860347] (franka_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[20.869592] (franka_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[20.925852] (-) TimerEvent: {}
+[21.026457] (-) TimerEvent: {}
+[21.128605] (-) TimerEvent: {}
+[21.230758] (-) TimerEvent: {}
+[21.336297] (-) TimerEvent: {}
+[21.442004] (-) TimerEvent: {}
+[21.481925] (franka_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[21.496597] (franka_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ - skipped\n'}
+[21.497267] (franka_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[21.498726] (franka_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[21.542498] (-) TimerEvent: {}
+[21.545421] (franka_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/Users/davidm/miniforge3/envs/roboenv-py3.10/share/ament_cmake/cmake)\n'}
+[21.642625] (-) TimerEvent: {}
+[21.743399] (-) TimerEvent: {}
+[21.845361] (-) TimerEvent: {}
+[21.946387] (-) TimerEvent: {}
+[22.049001] (-) TimerEvent: {}
+[22.151227] (-) TimerEvent: {}
+[22.252397] (-) TimerEvent: {}
+[22.357615] (-) TimerEvent: {}
+[22.462888] (-) TimerEvent: {}
+[22.563322] (-) TimerEvent: {}
+[22.666989] (-) TimerEvent: {}
+[22.769170] (-) TimerEvent: {}
+[22.869791] (-) TimerEvent: {}
+[22.974252] (-) TimerEvent: {}
+[23.075492] (-) TimerEvent: {}
+[23.175875] (-) TimerEvent: {}
+[23.234709] (franka_description) StdoutLine: {'line': b'-- Found Python3: /Library/Frameworks/Python.framework/Versions/3.12/bin/python3.12 (found version "3.12.4") found components: Interpreter \n'}
+[23.279935] (-) TimerEvent: {}
+[23.381379] (-) TimerEvent: {}
+[23.482149] (-) TimerEvent: {}
+[23.584674] (-) TimerEvent: {}
+[23.685429] (-) TimerEvent: {}
+[23.788439] (-) TimerEvent: {}
+[23.856036] (franka_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/Users/davidm/miniforge3/envs/roboenv-py3.10/share/ament_lint_auto/cmake)\n'}
+[23.890183] (-) TimerEvent: {}
+[23.991698] (-) TimerEvent: {}
+[24.092240] (-) TimerEvent: {}
+[24.192663] (-) TimerEvent: {}
+[24.294554] (-) TimerEvent: {}
+[24.394956] (-) TimerEvent: {}
+[24.495347] (-) TimerEvent: {}
+[24.600756] (-) TimerEvent: {}
+[24.705494] (-) TimerEvent: {}
+[24.807571] (-) TimerEvent: {}
+[24.912921] (-) TimerEvent: {}
+[25.013969] (-) TimerEvent: {}
+[25.118374] (-) TimerEvent: {}
+[25.223096] (-) TimerEvent: {}
+[25.323640] (-) TimerEvent: {}
+[25.424158] (-) TimerEvent: {}
+[25.525163] (-) TimerEvent: {}
+[25.627406] (-) TimerEvent: {}
+[25.730440] (-) TimerEvent: {}
+[25.830841] (-) TimerEvent: {}
+[25.935789] (-) TimerEvent: {}
+[26.039628] (-) TimerEvent: {}
+[26.140221] (-) TimerEvent: {}
+[26.241630] (-) TimerEvent: {}
+[26.342426] (-) TimerEvent: {}
+[26.446822] (-) TimerEvent: {}
+[26.547320] (-) TimerEvent: {}
+[26.557290] (franka_description) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[26.592374] (franka_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[26.597770] (franka_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[26.600938] (franka_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[26.618315] (franka_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[26.622291] (franka_description) StdoutLine: {'line': b'-- Configuring done (20.1s)\n'}
+[26.649968] (-) TimerEvent: {}
+[26.658995] (franka_description) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[26.670168] (franka_description) StdoutLine: {'line': b'-- Build files have been written to: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/franka_description\n'}
+[26.677483] (franka_description) CommandEnded: {'returncode': 0}
+[26.684123] (franka_description) JobProgress: {'identifier': 'franka_description', 'progress': 'build'}
+[26.684215] (franka_description) Command: {'cmd': ['/Users/davidm/miniforge3/envs/roboenv-py3.10/bin/cmake', '--build', '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/franka_description', '--', '-j8', '-l8'], 'cwd': '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/franka_description', 'env': OrderedDict([('TERM_PROGRAM', 'vscode'), ('PROJ_DATA', '/Users/davidm/miniforge3/envs/roboenv-py3.10/share/proj'), ('TERM', 'xterm-256color'), ('SHELL', '/bin/zsh'), ('TMPDIR', '/var/folders/m8/5ddn3xhd6kqf9yk2zhxw0y7h0000gn/T/'), ('CONDA_SHLVL', '2'), ('TERM_PROGRAM_VERSION', '1.84.2'), ('CONDA_PROMPT_MODIFIER', '(roboenv-py3.10)'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('ROS_PYTHON_VERSION', '3'), ('ZDOTDIR', '/Users/davidm'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'undefined'), ('MallocNanoZone', '0'), ('ROS_VERSION', '2'), ('AMENT_PREFIX_PATH', '/Users/davidm/miniforge3/envs/roboenv-py3.10'), ('USER', 'davidm'), ('COMMAND_MODE', 'unix2003'), ('CONDA_EXE', '/Users/davidm/miniforge3/bin/conda'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.B4Yc5TeF1v/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F5:0x0:0x0'), ('ROS_OS_OVERRIDE', 'conda:osx'), ('_CE_CONDA', ''), ('CONDA_PREFIX_1', '/Users/davidm/miniforge3'), ('PATH', '/Library/Frameworks/Python.framework/Versions/3.12/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/TeX/texbin:/Users/davidm/miniforge3/envs/roboenv-py3.10/bin:/Users/davidm/miniforge3/condabin:/Library/Frameworks/Python.framework/Versions/3.12/bin'), ('PROJ_NETWORK', 'ON'), ('GSETTINGS_SCHEMA_DIR', '/Users/davidm/miniforge3/envs/roboenv-py3.10/share/glib-2.0/schemas'), ('XML_CATALOG_FILES', 'file:///Users/davidm/miniforge3/envs/roboenv-py3.10/etc/xml/catalog file:///etc/xml/catalog'), ('USER_ZDOTDIR', '/Users/davidm'), ('CONDA_PREFIX', '/Users/davidm/miniforge3/envs/roboenv-py3.10'), ('__CFBundleIdentifier', 'com.microsoft.VSCode'), ('PWD', '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/franka_description'), ('COLCON', '1'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('XPC_FLAGS', '0x0'), ('_CE_M', ''), ('XPC_SERVICE_NAME', '0'), ('VSCODE_INJECTION', '1'), ('SHLVL', '2'), ('HOME', '/Users/davidm'), ('ROS_DISTRO', 'humble'), ('VSCODE_GIT_ASKPASS_MAIN', '/private/var/folders/m8/5ddn3xhd6kqf9yk2zhxw0y7h0000gn/T/AppTranslocation/EFAF3925-CF2D-4400-94D2-9D43E2D7A2BA/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js'), ('PYTHONPATH', '/Users/davidm/miniforge3/envs/roboenv-py3.10/lib/python310/site-packages:/Users/davidm/miniforge3/envs/roboenv-py3.10/lib/python3.10/site-packages'), ('CONDA_PYTHON_EXE', '/Users/davidm/miniforge3/bin/python'), ('LOGNAME', 'davidm'), ('VSCODE_GIT_IPC_HANDLE', '/var/folders/m8/5ddn3xhd6kqf9yk2zhxw0y7h0000gn/T/vscode-git-f75fa4bcd6.sock'), ('CONDA_DEFAULT_ENV', 'roboenv-py3.10'), ('VSCODE_GIT_ASKPASS_NODE', '/private/var/folders/m8/5ddn3xhd6kqf9yk2zhxw0y7h0000gn/T/AppTranslocation/EFAF3925-CF2D-4400-94D2-9D43E2D7A2BA/d/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)'), ('GIT_ASKPASS', '/private/var/folders/m8/5ddn3xhd6kqf9yk2zhxw0y7h0000gn/T/AppTranslocation/EFAF3925-CF2D-4400-94D2-9D43E2D7A2BA/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh'), ('ROS_LOCALHOST_ONLY', '0'), ('ROS_ETC_DIR', '/Users/davidm/miniforge3/envs/roboenv-py3.10/etc/ros'), ('COLORTERM', 'truecolor'), ('_', '/usr/bin/env'), ('CMAKE_PREFIX_PATH', '/Users/davidm/miniforge3/envs/roboenv-py3.10')]), 'shell': False}
+[26.750531] (-) TimerEvent: {}
+[26.820124] (franka_description) CommandEnded: {'returncode': 0}
+[26.821599] (franka_description) JobProgress: {'identifier': 'franka_description', 'progress': 'install'}
+[26.852701] (franka_description) Command: {'cmd': ['/Users/davidm/miniforge3/envs/roboenv-py3.10/bin/cmake', '--install', '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/franka_description'], 'cwd': '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/franka_description', 'env': OrderedDict([('TERM_PROGRAM', 'vscode'), ('PROJ_DATA', '/Users/davidm/miniforge3/envs/roboenv-py3.10/share/proj'), ('TERM', 'xterm-256color'), ('SHELL', '/bin/zsh'), ('TMPDIR', '/var/folders/m8/5ddn3xhd6kqf9yk2zhxw0y7h0000gn/T/'), ('CONDA_SHLVL', '2'), ('TERM_PROGRAM_VERSION', '1.84.2'), ('CONDA_PROMPT_MODIFIER', '(roboenv-py3.10)'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('ROS_PYTHON_VERSION', '3'), ('ZDOTDIR', '/Users/davidm'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'undefined'), ('MallocNanoZone', '0'), ('ROS_VERSION', '2'), ('AMENT_PREFIX_PATH', '/Users/davidm/miniforge3/envs/roboenv-py3.10'), ('USER', 'davidm'), ('COMMAND_MODE', 'unix2003'), ('CONDA_EXE', '/Users/davidm/miniforge3/bin/conda'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.B4Yc5TeF1v/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F5:0x0:0x0'), ('ROS_OS_OVERRIDE', 'conda:osx'), ('_CE_CONDA', ''), ('CONDA_PREFIX_1', '/Users/davidm/miniforge3'), ('PATH', '/Library/Frameworks/Python.framework/Versions/3.12/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/TeX/texbin:/Users/davidm/miniforge3/envs/roboenv-py3.10/bin:/Users/davidm/miniforge3/condabin:/Library/Frameworks/Python.framework/Versions/3.12/bin'), ('PROJ_NETWORK', 'ON'), ('GSETTINGS_SCHEMA_DIR', '/Users/davidm/miniforge3/envs/roboenv-py3.10/share/glib-2.0/schemas'), ('XML_CATALOG_FILES', 'file:///Users/davidm/miniforge3/envs/roboenv-py3.10/etc/xml/catalog file:///etc/xml/catalog'), ('USER_ZDOTDIR', '/Users/davidm'), ('CONDA_PREFIX', '/Users/davidm/miniforge3/envs/roboenv-py3.10'), ('__CFBundleIdentifier', 'com.microsoft.VSCode'), ('PWD', '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/franka_description'), ('COLCON', '1'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('XPC_FLAGS', '0x0'), ('_CE_M', ''), ('XPC_SERVICE_NAME', '0'), ('VSCODE_INJECTION', '1'), ('SHLVL', '2'), ('HOME', '/Users/davidm'), ('ROS_DISTRO', 'humble'), ('VSCODE_GIT_ASKPASS_MAIN', '/private/var/folders/m8/5ddn3xhd6kqf9yk2zhxw0y7h0000gn/T/AppTranslocation/EFAF3925-CF2D-4400-94D2-9D43E2D7A2BA/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js'), ('PYTHONPATH', '/Users/davidm/miniforge3/envs/roboenv-py3.10/lib/python310/site-packages:/Users/davidm/miniforge3/envs/roboenv-py3.10/lib/python3.10/site-packages'), ('CONDA_PYTHON_EXE', '/Users/davidm/miniforge3/bin/python'), ('LOGNAME', 'davidm'), ('VSCODE_GIT_IPC_HANDLE', '/var/folders/m8/5ddn3xhd6kqf9yk2zhxw0y7h0000gn/T/vscode-git-f75fa4bcd6.sock'), ('CONDA_DEFAULT_ENV', 'roboenv-py3.10'), ('VSCODE_GIT_ASKPASS_NODE', '/private/var/folders/m8/5ddn3xhd6kqf9yk2zhxw0y7h0000gn/T/AppTranslocation/EFAF3925-CF2D-4400-94D2-9D43E2D7A2BA/d/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)'), ('GIT_ASKPASS', '/private/var/folders/m8/5ddn3xhd6kqf9yk2zhxw0y7h0000gn/T/AppTranslocation/EFAF3925-CF2D-4400-94D2-9D43E2D7A2BA/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh'), ('ROS_LOCALHOST_ONLY', '0'), ('ROS_ETC_DIR', '/Users/davidm/miniforge3/envs/roboenv-py3.10/etc/ros'), ('COLORTERM', 'truecolor'), ('_', '/usr/bin/env'), ('CMAKE_PREFIX_PATH', '/Users/davidm/miniforge3/envs/roboenv-py3.10')]), 'shell': False}
+[26.854716] (-) TimerEvent: {}
+[26.877514] (franka_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[26.877991] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//launch\n'}
+[26.879196] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//launch/visualize_franka.launch.py\n'}
+[26.880365] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots\n'}
+[26.880915] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/fp3\n'}
+[26.881436] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/fp3/joint_limits.yaml\n'}
+[26.882392] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/fp3/fp3.urdf.xacro\n'}
+[26.883272] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/fp3/kinematics.yaml\n'}
+[26.883878] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/fp3/dynamics.yaml\n'}
+[26.884690] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/fp3/inertials.yaml\n'}
+[26.885516] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/fr3\n'}
+[26.886102] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/fr3/joint_limits.yaml\n'}
+[26.886773] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/fr3/kinematics.yaml\n'}
+[26.887485] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/fr3/dynamics.yaml\n'}
+[26.888201] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/fr3/inertials.yaml\n'}
+[26.888714] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/fr3/fr3.urdf.xacro\n'}
+[26.889219] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/common\n'}
+[26.889679] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/common/franka_arm.ros2_control.xacro\n'}
+[26.890119] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/common/franka_robot.xacro\n'}
+[26.891198] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/common/franka_arm.xacro\n'}
+[26.892031] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/common/utils.xacro\n'}
+[26.893047] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/fer\n'}
+[26.893518] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/fer/joint_limits.yaml\n'}
+[26.894130] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/fer/kinematics.yaml\n'}
+[26.894779] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/fer/dynamics.yaml\n'}
+[26.895749] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/fer/inertials.yaml\n'}
+[26.896658] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/fer/fer.urdf.xacro\n'}
+[26.897403] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//end_effectors\n'}
+[26.898031] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//end_effectors/cobot_pump\n'}
+[26.898299] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//end_effectors/cobot_pump/cobot_pump.urdf.xacro\n'}
+[26.898717] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//end_effectors/cobot_pump/inertials.yaml\n'}
+[26.899426] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//end_effectors/cobot_pump/cobot_pump_arguments.xacro\n'}
+[26.900080] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//end_effectors/franka_hand\n'}
+[26.900558] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//end_effectors/franka_hand/franka_hand.urdf.xacro\n'}
+[26.901080] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//end_effectors/franka_hand/franka_hand_arguments.xacro\n'}
+[26.901794] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//end_effectors/franka_hand/inertials.yaml\n'}
+[26.902452] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//end_effectors/common\n'}
+[26.902853] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//end_effectors/common/ee_with_one_link.xacro\n'}
+[26.903305] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//end_effectors/common/franka_hand.xacro\n'}
+[26.904376] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//end_effectors/common/utils.xacro\n'}
+[26.905295] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes\n'}
+[26.905796] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee\n'}
+[26.906325] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black\n'}
+[26.906793] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/visual\n'}
+[26.906958] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/visual/hand.dae\n'}
+[26.912945] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/visual/finger.dae\n'}
+[26.916370] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/collision\n'}
+[26.916783] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/collision/hand.stl\n'}
+[26.917495] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee/cobot_pump\n'}
+[26.917775] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee/cobot_pump/visual\n'}
+[26.918324] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee/cobot_pump/visual/cobot_pump.dae\n'}
+[26.957576] (-) TimerEvent: {}
+[26.958533] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee/cobot_pump/collision\n'}
+[26.958923] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee/cobot_pump/collision/cobot_pump.stl\n'}
+[26.989280] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white\n'}
+[26.989908] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/visual\n'}
+[26.990065] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/visual/hand.dae\n'}
+[26.996080] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/visual/finger.dae\n'}
+[26.997719] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/collision\n'}
+[26.998358] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/collision/hand.stl\n'}
+[26.999238] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms\n'}
+[26.999532] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3\n'}
+[26.999837] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual\n'}
+[26.999996] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link4.dae\n'}
+[27.011496] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link5.dae\n'}
+[27.031384] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link7.dae\n'}
+[27.049383] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link6.dae\n'}
+[27.057659] (-) TimerEvent: {}
+[27.074229] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link2.dae\n'}
+[27.083728] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link3.dae\n'}
+[27.097775] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link1.dae\n'}
+[27.104133] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link0.dae\n'}
+[27.132193] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision\n'}
+[27.132626] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link3.stl\n'}
+[27.136815] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link2.stl\n'}
+[27.138088] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link0.stl\n'}
+[27.138957] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link1.stl\n'}
+[27.139912] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link5.stl\n'}
+[27.140980] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link4.stl\n'}
+[27.142142] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link6.stl\n'}
+[27.143131] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link7.stl\n'}
+[27.144041] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3\n'}
+[27.144480] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual\n'}
+[27.144692] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link4.dae\n'}
+[27.156716] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link5.dae\n'}
+[27.157854] (-) TimerEvent: {}
+[27.173205] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link7.dae\n'}
+[27.195191] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link6.dae\n'}
+[27.218982] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link2.dae\n'}
+[27.226893] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link3.dae\n'}
+[27.240988] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link1.dae\n'}
+[27.252116] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link0.dae\n'}
+[27.258278] (-) TimerEvent: {}
+[27.301139] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision\n'}
+[27.301900] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link3.stl\n'}
+[27.305599] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link2.stl\n'}
+[27.306707] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link0.stl\n'}
+[27.307810] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link1.stl\n'}
+[27.308955] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link5.stl\n'}
+[27.310421] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link4.stl\n'}
+[27.311344] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link6.stl\n'}
+[27.314036] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link7.stl\n'}
+[27.316310] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer\n'}
+[27.317102] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual\n'}
+[27.317466] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link4.dae\n'}
+[27.329102] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link5.dae\n'}
+[27.342567] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link7.dae\n'}
+[27.355254] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link6.dae\n'}
+[27.359054] (-) TimerEvent: {}
+[27.366462] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link2.dae\n'}
+[27.373915] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link3.dae\n'}
+[27.383550] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link1.dae\n'}
+[27.389489] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link0.dae\n'}
+[27.404282] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/hand.dae\n'}
+[27.410399] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/finger.dae\n'}
+[27.412848] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision\n'}
+[27.413813] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/hand.stl\n'}
+[27.415345] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link3.stl\n'}
+[27.416446] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link2.stl\n'}
+[27.417429] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link0.stl\n'}
+[27.418602] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link1.stl\n'}
+[27.419269] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link5.stl\n'}
+[27.420168] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link4.stl\n'}
+[27.420968] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link6.stl\n'}
+[27.422183] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link7.stl\n'}
+[27.422724] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//rviz\n'}
+[27.422923] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//rviz/visualize_franka.rviz\n'}
+[27.423830] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//urdfs\n'}
+[27.424274] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//urdfs/fr3.urdf\n'}
+[27.425019] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//urdfs/fr3_franka_hand.urdf\n'}
+[27.426616] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/ament_index/resource_index/package_run_dependencies/franka_description\n'}
+[27.427332] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/ament_index/resource_index/parent_prefix_path/franka_description\n'}
+[27.428262] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description/environment/ament_prefix_path.sh\n'}
+[27.429304] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description/environment/ament_prefix_path.dsv\n'}
+[27.430029] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description/environment/path.sh\n'}
+[27.430746] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description/environment/path.dsv\n'}
+[27.431103] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description/local_setup.bash\n'}
+[27.431535] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description/local_setup.sh\n'}
+[27.431908] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description/local_setup.zsh\n'}
+[27.432430] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description/local_setup.dsv\n'}
+[27.433230] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description/package.dsv\n'}
+[27.434130] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/ament_index/resource_index/packages/franka_description\n'}
+[27.434742] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description/cmake/franka_descriptionConfig.cmake\n'}
+[27.435228] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description/cmake/franka_descriptionConfig-version.cmake\n'}
+[27.435909] (franka_description) StdoutLine: {'line': b'-- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description/package.xml\n'}
+[27.438369] (franka_description) CommandEnded: {'returncode': 0}
+[27.461213] (franka_description) JobEnded: {'identifier': 'franka_description', 'rc': 0}
+[27.464130] (-) TimerEvent: {}
+[27.464320] (transform_helpers) JobStarted: {'identifier': 'transform_helpers'}
+[27.566888] (-) TimerEvent: {}
+[27.670038] (-) TimerEvent: {}
+[27.770820] (-) TimerEvent: {}
+[27.874055] (-) TimerEvent: {}
+[27.978231] (-) TimerEvent: {}
+[28.083236] (-) TimerEvent: {}
+[28.186784] (-) TimerEvent: {}
+[28.289721] (-) TimerEvent: {}
+[28.390331] (-) TimerEvent: {}
+[28.491654] (-) TimerEvent: {}
+[28.591933] (-) TimerEvent: {}
+[28.692571] (-) TimerEvent: {}
+[28.793207] (-) TimerEvent: {}
+[28.895959] (-) TimerEvent: {}
+[28.999526] (-) TimerEvent: {}
+[29.103209] (-) TimerEvent: {}
+[29.207655] (-) TimerEvent: {}
+[29.308493] (-) TimerEvent: {}
+[29.410697] (-) TimerEvent: {}
+[29.511541] (-) TimerEvent: {}
+[29.611818] (-) TimerEvent: {}
+[29.713237] (-) TimerEvent: {}
+[29.817994] (-) TimerEvent: {}
+[29.922499] (-) TimerEvent: {}
+[30.025633] (-) TimerEvent: {}
+[30.100786] (transform_helpers) Command: {'cmd': ['/Users/davidm/miniforge3/envs/roboenv-py3.10/bin/python', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../../build/transform_helpers', 'build', '--build-base', '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/transform_helpers/build', 'install', '--record', '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/transform_helpers/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/src/COMP0246_Labs/lab1submission/transform_helpers', 'env': {'TERM_PROGRAM': 'vscode', 'PROJ_DATA': '/Users/davidm/miniforge3/envs/roboenv-py3.10/share/proj', 'TERM': 'xterm-256color', 'SHELL': '/bin/zsh', 'TMPDIR': '/var/folders/m8/5ddn3xhd6kqf9yk2zhxw0y7h0000gn/T/', 'CONDA_SHLVL': '2', 'TERM_PROGRAM_VERSION': '1.84.2', 'CONDA_PROMPT_MODIFIER': '(roboenv-py3.10)', 'GSETTINGS_SCHEMA_DIR_CONDA_BACKUP': '', 'ROS_PYTHON_VERSION': '3', 'ZDOTDIR': '/Users/davidm', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'undefined', 'MallocNanoZone': '0', 'ROS_VERSION': '2', 'AMENT_PREFIX_PATH': '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description:/Users/davidm/miniforge3/envs/roboenv-py3.10', 'USER': 'davidm', 'COMMAND_MODE': 'unix2003', 'CONDA_EXE': '/Users/davidm/miniforge3/bin/conda', 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.B4Yc5TeF1v/Listeners', '__CF_USER_TEXT_ENCODING': '0x1F5:0x0:0x0', 'ROS_OS_OVERRIDE': 'conda:osx', '_CE_CONDA': '', 'CONDA_PREFIX_1': '/Users/davidm/miniforge3', 'PATH': '/Library/Frameworks/Python.framework/Versions/3.12/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/TeX/texbin:/Users/davidm/miniforge3/envs/roboenv-py3.10/bin:/Users/davidm/miniforge3/condabin:/Library/Frameworks/Python.framework/Versions/3.12/bin', 'PROJ_NETWORK': 'ON', 'GSETTINGS_SCHEMA_DIR': '/Users/davidm/miniforge3/envs/roboenv-py3.10/share/glib-2.0/schemas', 'XML_CATALOG_FILES': 'file:///Users/davidm/miniforge3/envs/roboenv-py3.10/etc/xml/catalog file:///etc/xml/catalog', 'USER_ZDOTDIR': '/Users/davidm', 'CONDA_PREFIX': '/Users/davidm/miniforge3/envs/roboenv-py3.10', '__CFBundleIdentifier': 'com.microsoft.VSCode', 'PWD': '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/transform_helpers', 'COLCON': '1', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'XPC_FLAGS': '0x0', '_CE_M': '', 'XPC_SERVICE_NAME': '0', 'VSCODE_INJECTION': '1', 'SHLVL': '2', 'HOME': '/Users/davidm', 'ROS_DISTRO': 'humble', 'VSCODE_GIT_ASKPASS_MAIN': '/private/var/folders/m8/5ddn3xhd6kqf9yk2zhxw0y7h0000gn/T/AppTranslocation/EFAF3925-CF2D-4400-94D2-9D43E2D7A2BA/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js', 'PYTHONPATH': '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/transform_helpers/prefix_override:/Users/davidm/miniforge3/envs/roboenv-py3.10/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/lib/python3.10/site-packages:/Users/davidm/miniforge3/envs/roboenv-py3.10/lib/python310/site-packages:/Users/davidm/miniforge3/envs/roboenv-py3.10/lib/python3.10/site-packages', 'CONDA_PYTHON_EXE': '/Users/davidm/miniforge3/bin/python', 'LOGNAME': 'davidm', 'VSCODE_GIT_IPC_HANDLE': '/var/folders/m8/5ddn3xhd6kqf9yk2zhxw0y7h0000gn/T/vscode-git-f75fa4bcd6.sock', 'CONDA_DEFAULT_ENV': 'roboenv-py3.10', 'VSCODE_GIT_ASKPASS_NODE': '/private/var/folders/m8/5ddn3xhd6kqf9yk2zhxw0y7h0000gn/T/AppTranslocation/EFAF3925-CF2D-4400-94D2-9D43E2D7A2BA/d/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)', 'GIT_ASKPASS': '/private/var/folders/m8/5ddn3xhd6kqf9yk2zhxw0y7h0000gn/T/AppTranslocation/EFAF3925-CF2D-4400-94D2-9D43E2D7A2BA/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh', 'CMAKE_PREFIX_PATH': '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description', 'ROS_LOCALHOST_ONLY': '0', 'ROS_ETC_DIR': '/Users/davidm/miniforge3/envs/roboenv-py3.10/etc/ros', 'COLORTERM': 'truecolor', '_': '/usr/bin/env'}, 'shell': False}
+[30.126691] (-) TimerEvent: {}
+[30.243605] (-) TimerEvent: {}
+[30.345107] (-) TimerEvent: {}
+[30.449505] (-) TimerEvent: {}
+[30.552685] (-) TimerEvent: {}
+[30.657586] (-) TimerEvent: {}
+[30.761978] (-) TimerEvent: {}
+[30.865695] (-) TimerEvent: {}
+[30.968391] (-) TimerEvent: {}
+[31.071279] (-) TimerEvent: {}
+[31.172392] (-) TimerEvent: {}
+[31.277383] (-) TimerEvent: {}
+[31.304596] (transform_helpers) StdoutLine: {'line': b'running egg_info\n'}
+[31.305479] (transform_helpers) StdoutLine: {'line': b'creating ../../../../build/transform_helpers/transform_helpers.egg-info\n'}
+[31.381304] (-) TimerEvent: {}
+[31.405717] (transform_helpers) StdoutLine: {'line': b'writing ../../../../build/transform_helpers/transform_helpers.egg-info/PKG-INFO\n'}
+[31.463543] (transform_helpers) StdoutLine: {'line': b'writing dependency_links to ../../../../build/transform_helpers/transform_helpers.egg-info/dependency_links.txt\n'}
+[31.483861] (-) TimerEvent: {}
+[31.585485] (-) TimerEvent: {}
+[31.650157] (transform_helpers) StdoutLine: {'line': b'writing entry points to ../../../../build/transform_helpers/transform_helpers.egg-info/entry_points.txt\n'}
+[31.686545] (-) TimerEvent: {}
+[31.789961] (-) TimerEvent: {}
+[31.852623] (transform_helpers) StdoutLine: {'line': b'writing requirements to ../../../../build/transform_helpers/transform_helpers.egg-info/requires.txt\n'}
+[31.890131] (-) TimerEvent: {}
+[31.920860] (transform_helpers) StdoutLine: {'line': b'writing top-level names to ../../../../build/transform_helpers/transform_helpers.egg-info/top_level.txt\n'}
+[31.921180] (transform_helpers) StdoutLine: {'line': b"writing manifest file '../../../../build/transform_helpers/transform_helpers.egg-info/SOURCES.txt'\n"}
+[31.991766] (-) TimerEvent: {}
+[32.081324] (transform_helpers) StdoutLine: {'line': b"reading manifest file '../../../../build/transform_helpers/transform_helpers.egg-info/SOURCES.txt'\n"}
+[32.083138] (transform_helpers) StdoutLine: {'line': b"writing manifest file '../../../../build/transform_helpers/transform_helpers.egg-info/SOURCES.txt'\n"}
+[32.083758] (transform_helpers) StdoutLine: {'line': b'running build\n'}
+[32.084397] (transform_helpers) StdoutLine: {'line': b'running build_py\n'}
+[32.084710] (transform_helpers) StdoutLine: {'line': b'creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/transform_helpers/build\n'}
+[32.085318] (transform_helpers) StdoutLine: {'line': b'creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/transform_helpers/build/lib\n'}
+[32.085436] (transform_helpers) StdoutLine: {'line': b'creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/transform_helpers/build/lib/transform_helpers\n'}
+[32.085546] (transform_helpers) StdoutLine: {'line': b'copying transform_helpers/__init__.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/transform_helpers/build/lib/transform_helpers\n'}
+[32.085633] (transform_helpers) StdoutLine: {'line': b'copying transform_helpers/utils.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/transform_helpers/build/lib/transform_helpers\n'}
+[32.086153] (transform_helpers) StdoutLine: {'line': b'copying transform_helpers/main.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/transform_helpers/build/lib/transform_helpers\n'}
+[32.087131] (transform_helpers) StdoutLine: {'line': b'running install\n'}
+[32.092081] (-) TimerEvent: {}
+[32.092491] (transform_helpers) StdoutLine: {'line': b'running install_lib\n'}
+[32.189171] (transform_helpers) StdoutLine: {'line': b'creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/lib/python3.10/site-packages/transform_helpers\n'}
+[32.189797] (transform_helpers) StdoutLine: {'line': b'copying /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/transform_helpers/build/lib/transform_helpers/__init__.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/lib/python3.10/site-packages/transform_helpers\n'}
+[32.190107] (transform_helpers) StdoutLine: {'line': b'copying /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/transform_helpers/build/lib/transform_helpers/utils.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/lib/python3.10/site-packages/transform_helpers\n'}
+[32.190509] (transform_helpers) StdoutLine: {'line': b'copying /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/transform_helpers/build/lib/transform_helpers/main.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/lib/python3.10/site-packages/transform_helpers\n'}
+[32.192299] (-) TimerEvent: {}
+[32.192664] (transform_helpers) StdoutLine: {'line': b'byte-compiling /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/lib/python3.10/site-packages/transform_helpers/__init__.py to __init__.cpython-310.pyc\n'}
+[32.193699] (transform_helpers) StdoutLine: {'line': b'byte-compiling /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/lib/python3.10/site-packages/transform_helpers/utils.py to utils.cpython-310.pyc\n'}
+[32.194841] (transform_helpers) StdoutLine: {'line': b'byte-compiling /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/lib/python3.10/site-packages/transform_helpers/main.py to main.cpython-310.pyc\n'}
+[32.197044] (transform_helpers) StdoutLine: {'line': b'running install_data\n'}
+[32.197583] (transform_helpers) StdoutLine: {'line': b'creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/share/ament_index\n'}
+[32.197959] (transform_helpers) StdoutLine: {'line': b'creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/share/ament_index/resource_index\n'}
+[32.198447] (transform_helpers) StdoutLine: {'line': b'creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/share/ament_index/resource_index/packages\n'}
+[32.199003] (transform_helpers) StdoutLine: {'line': b'copying resource/transform_helpers -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/share/ament_index/resource_index/packages\n'}
+[32.199437] (transform_helpers) StdoutLine: {'line': b'copying package.xml -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/share/transform_helpers\n'}
+[32.199806] (transform_helpers) StdoutLine: {'line': b'creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/share/transform_helpers/config\n'}
+[32.200221] (transform_helpers) StdoutLine: {'line': b'copying config/viz.rviz -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/share/transform_helpers/config\n'}
+[32.200699] (transform_helpers) StdoutLine: {'line': b'creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/share/transform_helpers/launch\n'}
+[32.201197] (transform_helpers) StdoutLine: {'line': b'copying launch/bringup.launch.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/share/transform_helpers/launch\n'}
+[32.201468] (transform_helpers) StdoutLine: {'line': b'running install_egg_info\n'}
+[32.292875] (-) TimerEvent: {}
+[32.333501] (transform_helpers) StdoutLine: {'line': b'Copying ../../../../build/transform_helpers/transform_helpers.egg-info to /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/lib/python3.10/site-packages/transform_helpers-0.0.0-py3.10.egg-info\n'}
+[32.339739] (transform_helpers) StdoutLine: {'line': b'running install_scripts\n'}
+[32.393152] (-) TimerEvent: {}
+[32.495971] (-) TimerEvent: {}
+[32.537950] (transform_helpers) StdoutLine: {'line': b'Installing main script to /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/lib/transform_helpers\n'}
+[32.538750] (transform_helpers) StdoutLine: {'line': b"writing list of installed files to '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/transform_helpers/install.log'\n"}
+[32.590848] (transform_helpers) CommandEnded: {'returncode': 0}
+[32.596213] (-) TimerEvent: {}
+[32.602192] (transform_helpers) JobEnded: {'identifier': 'transform_helpers', 'rc': 0}
+[32.604858] (youbot_kinematics) JobStarted: {'identifier': 'youbot_kinematics'}
+[32.698256] (-) TimerEvent: {}
+[32.798995] (-) TimerEvent: {}
+[32.902841] (-) TimerEvent: {}
+[33.007534] (-) TimerEvent: {}
+[33.109731] (-) TimerEvent: {}
+[33.212259] (-) TimerEvent: {}
+[33.315420] (-) TimerEvent: {}
+[33.418749] (-) TimerEvent: {}
+[33.520543] (-) TimerEvent: {}
+[33.621808] (-) TimerEvent: {}
+[33.722356] (-) TimerEvent: {}
+[33.827185] (-) TimerEvent: {}
+[33.930163] (-) TimerEvent: {}
+[34.030715] (-) TimerEvent: {}
+[34.133678] (-) TimerEvent: {}
+[34.236669] (-) TimerEvent: {}
+[34.337698] (-) TimerEvent: {}
+[34.442640] (-) TimerEvent: {}
+[34.543170] (-) TimerEvent: {}
+[34.646516] (-) TimerEvent: {}
+[34.750618] (-) TimerEvent: {}
+[34.854925] (-) TimerEvent: {}
+[34.959724] (-) TimerEvent: {}
+[35.060023] (-) TimerEvent: {}
+[35.073833] (youbot_kinematics) Command: {'cmd': ['/Users/davidm/miniforge3/envs/roboenv-py3.10/bin/python', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../../build/youbot_kinematics', 'build', '--build-base', '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build', 'install', '--record', '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/src/COMP0246_Labs/final_lab/youbot_kinematics', 'env': {'TERM_PROGRAM': 'vscode', 'PROJ_DATA': '/Users/davidm/miniforge3/envs/roboenv-py3.10/share/proj', 'TERM': 'xterm-256color', 'SHELL': '/bin/zsh', 'TMPDIR': '/var/folders/m8/5ddn3xhd6kqf9yk2zhxw0y7h0000gn/T/', 'CONDA_SHLVL': '2', 'TERM_PROGRAM_VERSION': '1.84.2', 'CONDA_PROMPT_MODIFIER': '(roboenv-py3.10)', 'GSETTINGS_SCHEMA_DIR_CONDA_BACKUP': '', 'ROS_PYTHON_VERSION': '3', 'ZDOTDIR': '/Users/davidm', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'undefined', 'MallocNanoZone': '0', 'ROS_VERSION': '2', 'AMENT_PREFIX_PATH': '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers:/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description:/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description:/Users/davidm/miniforge3/envs/roboenv-py3.10', 'USER': 'davidm', 'COMMAND_MODE': 'unix2003', 'CONDA_EXE': '/Users/davidm/miniforge3/bin/conda', 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.B4Yc5TeF1v/Listeners', '__CF_USER_TEXT_ENCODING': '0x1F5:0x0:0x0', 'ROS_OS_OVERRIDE': 'conda:osx', '_CE_CONDA': '', 'CONDA_PREFIX_1': '/Users/davidm/miniforge3', 'PATH': '/Library/Frameworks/Python.framework/Versions/3.12/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/TeX/texbin:/Users/davidm/miniforge3/envs/roboenv-py3.10/bin:/Users/davidm/miniforge3/condabin:/Library/Frameworks/Python.framework/Versions/3.12/bin', 'PROJ_NETWORK': 'ON', 'GSETTINGS_SCHEMA_DIR': '/Users/davidm/miniforge3/envs/roboenv-py3.10/share/glib-2.0/schemas', 'XML_CATALOG_FILES': 'file:///Users/davidm/miniforge3/envs/roboenv-py3.10/etc/xml/catalog file:///etc/xml/catalog', 'USER_ZDOTDIR': '/Users/davidm', 'CONDA_PREFIX': '/Users/davidm/miniforge3/envs/roboenv-py3.10', '__CFBundleIdentifier': 'com.microsoft.VSCode', 'PWD': '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics', 'COLCON': '1', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'XPC_FLAGS': '0x0', '_CE_M': '', 'XPC_SERVICE_NAME': '0', 'VSCODE_INJECTION': '1', 'SHLVL': '2', 'HOME': '/Users/davidm', 'ROS_DISTRO': 'humble', 'VSCODE_GIT_ASKPASS_MAIN': '/private/var/folders/m8/5ddn3xhd6kqf9yk2zhxw0y7h0000gn/T/AppTranslocation/EFAF3925-CF2D-4400-94D2-9D43E2D7A2BA/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js', 'PYTHONPATH': '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/prefix_override:/Users/davidm/miniforge3/envs/roboenv-py3.10/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages:/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/lib/python3.10/site-packages:/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/lib/python3.10/site-packages:/Users/davidm/miniforge3/envs/roboenv-py3.10/lib/python310/site-packages:/Users/davidm/miniforge3/envs/roboenv-py3.10/lib/python3.10/site-packages', 'CONDA_PYTHON_EXE': '/Users/davidm/miniforge3/bin/python', 'LOGNAME': 'davidm', 'VSCODE_GIT_IPC_HANDLE': '/var/folders/m8/5ddn3xhd6kqf9yk2zhxw0y7h0000gn/T/vscode-git-f75fa4bcd6.sock', 'CONDA_DEFAULT_ENV': 'roboenv-py3.10', 'VSCODE_GIT_ASKPASS_NODE': '/private/var/folders/m8/5ddn3xhd6kqf9yk2zhxw0y7h0000gn/T/AppTranslocation/EFAF3925-CF2D-4400-94D2-9D43E2D7A2BA/d/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)', 'GIT_ASKPASS': '/private/var/folders/m8/5ddn3xhd6kqf9yk2zhxw0y7h0000gn/T/AppTranslocation/EFAF3925-CF2D-4400-94D2-9D43E2D7A2BA/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh', 'CMAKE_PREFIX_PATH': '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description', 'ROS_LOCALHOST_ONLY': '0', 'ROS_ETC_DIR': '/Users/davidm/miniforge3/envs/roboenv-py3.10/etc/ros', 'COLORTERM': 'truecolor', '_': '/usr/bin/env'}, 'shell': False}
+[35.163912] (-) TimerEvent: {}
+[35.266185] (-) TimerEvent: {}
+[35.367031] (-) TimerEvent: {}
+[35.468091] (-) TimerEvent: {}
+[35.568664] (-) TimerEvent: {}
+[35.672251] (-) TimerEvent: {}
+[35.773744] (-) TimerEvent: {}
+[35.876081] (-) TimerEvent: {}
+[35.977466] (-) TimerEvent: {}
+[36.078044] (-) TimerEvent: {}
+[36.180458] (-) TimerEvent: {}
+[36.217444] (youbot_kinematics) StdoutLine: {'line': b'running egg_info\n'}
+[36.217879] (youbot_kinematics) StdoutLine: {'line': b'creating ../../../../build/youbot_kinematics/youbot_kinematics.egg-info\n'}
+[36.282302] (-) TimerEvent: {}
+[36.321792] (youbot_kinematics) StdoutLine: {'line': b'writing ../../../../build/youbot_kinematics/youbot_kinematics.egg-info/PKG-INFO\n'}
+[36.382434] (-) TimerEvent: {}
+[36.391528] (youbot_kinematics) StdoutLine: {'line': b'writing dependency_links to ../../../../build/youbot_kinematics/youbot_kinematics.egg-info/dependency_links.txt\n'}
+[36.482745] (-) TimerEvent: {}
+[36.568653] (youbot_kinematics) StdoutLine: {'line': b'writing entry points to ../../../../build/youbot_kinematics/youbot_kinematics.egg-info/entry_points.txt\n'}
+[36.584364] (-) TimerEvent: {}
+[36.680753] (youbot_kinematics) StdoutLine: {'line': b'writing requirements to ../../../../build/youbot_kinematics/youbot_kinematics.egg-info/requires.txt\n'}
+[36.685313] (-) TimerEvent: {}
+[36.739808] (youbot_kinematics) StdoutLine: {'line': b'writing top-level names to ../../../../build/youbot_kinematics/youbot_kinematics.egg-info/top_level.txt\n'}
+[36.740219] (youbot_kinematics) StdoutLine: {'line': b"writing manifest file '../../../../build/youbot_kinematics/youbot_kinematics.egg-info/SOURCES.txt'\n"}
+[36.789867] (-) TimerEvent: {}
+[36.842320] (youbot_kinematics) StdoutLine: {'line': b"reading manifest file '../../../../build/youbot_kinematics/youbot_kinematics.egg-info/SOURCES.txt'\n"}
+[36.843686] (youbot_kinematics) StdoutLine: {'line': b"writing manifest file '../../../../build/youbot_kinematics/youbot_kinematics.egg-info/SOURCES.txt'\n"}
+[36.844007] (youbot_kinematics) StdoutLine: {'line': b'running build\n'}
+[36.844104] (youbot_kinematics) StdoutLine: {'line': b'running build_py\n'}
+[36.844443] (youbot_kinematics) StdoutLine: {'line': b'creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build\n'}
+[36.844703] (youbot_kinematics) StdoutLine: {'line': b'creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib\n'}
+[36.844867] (youbot_kinematics) StdoutLine: {'line': b'creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics\n'}
+[36.845270] (youbot_kinematics) StdoutLine: {'line': b'copying youbot_kinematics/youbotKineStudent.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics\n'}
+[36.845370] (youbot_kinematics) StdoutLine: {'line': b'copying youbot_kinematics/urdf_parser.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics\n'}
+[36.845571] (youbot_kinematics) StdoutLine: {'line': b'copying youbot_kinematics/__init__.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics\n'}
+[36.845898] (youbot_kinematics) StdoutLine: {'line': b'copying youbot_kinematics/youbotKineKDL.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics\n'}
+[36.846618] (youbot_kinematics) StdoutLine: {'line': b'copying youbot_kinematics/youbotKineBase.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics\n'}
+[36.847475] (youbot_kinematics) StdoutLine: {'line': b'copying youbot_kinematics/plan_trajectory.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics\n'}
+[36.848223] (youbot_kinematics) StdoutLine: {'line': b'copying youbot_kinematics/urdf.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics\n'}
+[36.849191] (youbot_kinematics) StdoutLine: {'line': b'copying youbot_kinematics/target_data.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics\n'}
+[36.850140] (youbot_kinematics) StdoutLine: {'line': b'creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics/xml_reflection\n'}
+[36.850299] (youbot_kinematics) StdoutLine: {'line': b'copying youbot_kinematics/xml_reflection/__init__.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics/xml_reflection\n'}
+[36.850822] (youbot_kinematics) StdoutLine: {'line': b'copying youbot_kinematics/xml_reflection/core.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics/xml_reflection\n'}
+[36.852151] (youbot_kinematics) StdoutLine: {'line': b'copying youbot_kinematics/xml_reflection/basics.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics/xml_reflection\n'}
+[36.853533] (youbot_kinematics) StdoutLine: {'line': b'running install\n'}
+[36.858839] (youbot_kinematics) StdoutLine: {'line': b'running install_lib\n'}
+[36.891080] (-) TimerEvent: {}
+[36.938497] (youbot_kinematics) StdoutLine: {'line': b'creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics\n'}
+[36.938871] (youbot_kinematics) StdoutLine: {'line': b'copying /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics/youbotKineStudent.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics\n'}
+[36.939384] (youbot_kinematics) StdoutLine: {'line': b'creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics/xml_reflection\n'}
+[36.939680] (youbot_kinematics) StdoutLine: {'line': b'copying /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics/xml_reflection/__init__.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics/xml_reflection\n'}
+[36.940204] (youbot_kinematics) StdoutLine: {'line': b'copying /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics/xml_reflection/core.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics/xml_reflection\n'}
+[36.940536] (youbot_kinematics) StdoutLine: {'line': b'copying /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics/xml_reflection/basics.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics/xml_reflection\n'}
+[36.940885] (youbot_kinematics) StdoutLine: {'line': b'copying /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics/urdf_parser.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics\n'}
+[36.941227] (youbot_kinematics) StdoutLine: {'line': b'copying /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics/__init__.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics\n'}
+[36.941663] (youbot_kinematics) StdoutLine: {'line': b'copying /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics/youbotKineKDL.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics\n'}
+[36.941941] (youbot_kinematics) StdoutLine: {'line': b'copying /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics/youbotKineBase.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics\n'}
+[36.942283] (youbot_kinematics) StdoutLine: {'line': b'copying /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics/plan_trajectory.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics\n'}
+[36.942565] (youbot_kinematics) StdoutLine: {'line': b'copying /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics/urdf.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics\n'}
+[36.943118] (youbot_kinematics) StdoutLine: {'line': b'copying /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics/target_data.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics\n'}
+[36.944143] (youbot_kinematics) StdoutLine: {'line': b'byte-compiling /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics/youbotKineStudent.py to youbotKineStudent.cpython-310.pyc\n'}
+[36.946209] (youbot_kinematics) StdoutLine: {'line': b'byte-compiling /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics/xml_reflection/__init__.py to __init__.cpython-310.pyc\n'}
+[36.947158] (youbot_kinematics) StdoutLine: {'line': b'byte-compiling /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics/xml_reflection/core.py to core.cpython-310.pyc\n'}
+[36.953439] (youbot_kinematics) StdoutLine: {'line': b'byte-compiling /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics/xml_reflection/basics.py to basics.cpython-310.pyc\n'}
+[36.954457] (youbot_kinematics) StdoutLine: {'line': b'byte-compiling /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics/urdf_parser.py to urdf_parser.cpython-310.pyc\n'}
+[36.958526] (youbot_kinematics) StdoutLine: {'line': b'byte-compiling /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics/__init__.py to __init__.cpython-310.pyc\n'}
+[36.959155] (youbot_kinematics) StdoutLine: {'line': b'byte-compiling /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics/youbotKineKDL.py to youbotKineKDL.cpython-310.pyc\n'}
+[36.960639] (youbot_kinematics) StdoutLine: {'line': b'byte-compiling /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics/youbotKineBase.py to youbotKineBase.cpython-310.pyc\n'}
+[36.961795] (youbot_kinematics) StdoutLine: {'line': b'byte-compiling /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics/plan_trajectory.py to plan_trajectory.cpython-310.pyc\n'}
+[36.963150] (youbot_kinematics) StdoutLine: {'line': b'byte-compiling /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics/urdf.py to urdf.cpython-310.pyc\n'}
+[36.964508] (youbot_kinematics) StdoutLine: {'line': b'byte-compiling /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics/target_data.py to target_data.cpython-310.pyc\n'}
+[36.965171] (youbot_kinematics) StdoutLine: {'line': b'running install_data\n'}
+[36.965831] (youbot_kinematics) StdoutLine: {'line': b'creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/share/ament_index\n'}
+[36.966227] (youbot_kinematics) StdoutLine: {'line': b'creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/share/ament_index/resource_index\n'}
+[36.966579] (youbot_kinematics) StdoutLine: {'line': b'creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/share/ament_index/resource_index/packages\n'}
+[36.966804] (youbot_kinematics) StdoutLine: {'line': b'copying resource/youbot_kinematics -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/share/ament_index/resource_index/packages\n'}
+[36.966888] (youbot_kinematics) StdoutLine: {'line': b'copying package.xml -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/share/youbot_kinematics\n'}
+[36.966975] (youbot_kinematics) StdoutLine: {'line': b'creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/share/youbot_kinematics/config\n'}
+[36.967048] (youbot_kinematics) StdoutLine: {'line': b'copying config/viz.rviz -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/share/youbot_kinematics/config\n'}
+[36.967435] (youbot_kinematics) StdoutLine: {'line': b'creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/share/youbot_kinematics/launch\n'}
+[36.967731] (youbot_kinematics) StdoutLine: {'line': b'copying launch/bringup.launch.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/share/youbot_kinematics/launch\n'}
+[36.968393] (youbot_kinematics) StdoutLine: {'line': b'running install_egg_info\n'}
+[36.991182] (-) TimerEvent: {}
+[37.055192] (youbot_kinematics) StdoutLine: {'line': b'Copying ../../../../build/youbot_kinematics/youbot_kinematics.egg-info to /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics-0.0.0-py3.10.egg-info\n'}
+[37.059126] (youbot_kinematics) StdoutLine: {'line': b'running install_scripts\n'}
+[37.091441] (-) TimerEvent: {}
+[37.195117] (-) TimerEvent: {}
+[37.259650] (youbot_kinematics) StdoutLine: {'line': b'Installing main_kdl script to /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/youbot_kinematics\n'}
+[37.260277] (youbot_kinematics) StdoutLine: {'line': b'Installing main_student script to /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/youbot_kinematics\n'}
+[37.260793] (youbot_kinematics) StdoutLine: {'line': b'Installing plan_trajectory script to /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/youbot_kinematics\n'}
+[37.262307] (youbot_kinematics) StdoutLine: {'line': b"writing list of installed files to '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/install.log'\n"}
+[37.299224] (-) TimerEvent: {}
+[37.307043] (youbot_kinematics) CommandEnded: {'returncode': 0}
+[37.318181] (youbot_kinematics) JobEnded: {'identifier': 'youbot_kinematics', 'rc': 0}
+[37.320036] (-) EventReactorShutdown: {}

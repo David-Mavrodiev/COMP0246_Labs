@@ -1,0 +1,44 @@
+[2.652s] Invoking command in '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/src/COMP0246_Labs/lab1submission/transform_helpers': AMENT_PREFIX_PATH=/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description CONDA_PROMPT_MODIFIER=(roboenv-py3.10) PYTHONPATH=/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/transform_helpers/prefix_override:/Users/davidm/miniforge3/envs/roboenv-py3.10/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/lib/python3.10/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /Users/davidm/miniforge3/envs/roboenv-py3.10/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/transform_helpers build --build-base /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/transform_helpers/build install --record /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/transform_helpers/install.log --single-version-externally-managed install_data
+[3.841s] running egg_info
+[3.841s] creating ../../../../build/transform_helpers/transform_helpers.egg-info
+[3.941s] writing ../../../../build/transform_helpers/transform_helpers.egg-info/PKG-INFO
+[3.999s] writing dependency_links to ../../../../build/transform_helpers/transform_helpers.egg-info/dependency_links.txt
+[4.186s] writing entry points to ../../../../build/transform_helpers/transform_helpers.egg-info/entry_points.txt
+[4.388s] writing requirements to ../../../../build/transform_helpers/transform_helpers.egg-info/requires.txt
+[4.457s] writing top-level names to ../../../../build/transform_helpers/transform_helpers.egg-info/top_level.txt
+[4.457s] writing manifest file '../../../../build/transform_helpers/transform_helpers.egg-info/SOURCES.txt'
+[4.617s] reading manifest file '../../../../build/transform_helpers/transform_helpers.egg-info/SOURCES.txt'
+[4.619s] writing manifest file '../../../../build/transform_helpers/transform_helpers.egg-info/SOURCES.txt'
+[4.620s] running build
+[4.620s] running build_py
+[4.621s] creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/transform_helpers/build
+[4.621s] creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/transform_helpers/build/lib
+[4.621s] creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/transform_helpers/build/lib/transform_helpers
+[4.621s] copying transform_helpers/__init__.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/transform_helpers/build/lib/transform_helpers
+[4.622s] copying transform_helpers/utils.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/transform_helpers/build/lib/transform_helpers
+[4.622s] copying transform_helpers/main.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/transform_helpers/build/lib/transform_helpers
+[4.623s] running install
+[4.628s] running install_lib
+[4.725s] creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/lib/python3.10/site-packages/transform_helpers
+[4.726s] copying /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/transform_helpers/build/lib/transform_helpers/__init__.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/lib/python3.10/site-packages/transform_helpers
+[4.726s] copying /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/transform_helpers/build/lib/transform_helpers/utils.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/lib/python3.10/site-packages/transform_helpers
+[4.726s] copying /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/transform_helpers/build/lib/transform_helpers/main.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/lib/python3.10/site-packages/transform_helpers
+[4.728s] byte-compiling /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/lib/python3.10/site-packages/transform_helpers/__init__.py to __init__.cpython-310.pyc
+[4.730s] byte-compiling /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/lib/python3.10/site-packages/transform_helpers/utils.py to utils.cpython-310.pyc
+[4.731s] byte-compiling /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/lib/python3.10/site-packages/transform_helpers/main.py to main.cpython-310.pyc
+[4.733s] running install_data
+[4.734s] creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/share/ament_index
+[4.734s] creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/share/ament_index/resource_index
+[4.734s] creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/share/ament_index/resource_index/packages
+[4.735s] copying resource/transform_helpers -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/share/ament_index/resource_index/packages
+[4.735s] copying package.xml -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/share/transform_helpers
+[4.736s] creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/share/transform_helpers/config
+[4.736s] copying config/viz.rviz -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/share/transform_helpers/config
+[4.737s] creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/share/transform_helpers/launch
+[4.737s] copying launch/bringup.launch.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/share/transform_helpers/launch
+[4.737s] running install_egg_info
+[4.869s] Copying ../../../../build/transform_helpers/transform_helpers.egg-info to /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/lib/python3.10/site-packages/transform_helpers-0.0.0-py3.10.egg-info
+[4.876s] running install_scripts
+[5.074s] Installing main script to /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/lib/transform_helpers
+[5.075s] writing list of installed files to '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/transform_helpers/install.log'
+[5.127s] Invoked command in '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/src/COMP0246_Labs/lab1submission/transform_helpers' returned '0': AMENT_PREFIX_PATH=/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description CONDA_PROMPT_MODIFIER=(roboenv-py3.10) PYTHONPATH=/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/transform_helpers/prefix_override:/Users/davidm/miniforge3/envs/roboenv-py3.10/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/lib/python3.10/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /Users/davidm/miniforge3/envs/roboenv-py3.10/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/transform_helpers build --build-base /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/transform_helpers/build install --record /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/transform_helpers/install.log --single-version-externally-managed install_data

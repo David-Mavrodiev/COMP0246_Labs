@@ -1,0 +1,67 @@
+running egg_info
+creating ../../../../build/youbot_description/youbot_description.egg-info
+writing ../../../../build/youbot_description/youbot_description.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/youbot_description/youbot_description.egg-info/dependency_links.txt
+writing requirements to ../../../../build/youbot_description/youbot_description.egg-info/requires.txt
+writing top-level names to ../../../../build/youbot_description/youbot_description.egg-info/top_level.txt
+writing manifest file '../../../../build/youbot_description/youbot_description.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/youbot_description/youbot_description.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/youbot_description/youbot_description.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_description/build
+creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_description/build/lib
+creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_description/build/lib/youbot_description
+copying youbot_description/__init__.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_description/build/lib/youbot_description
+running install
+running install_lib
+creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/lib/python3.10/site-packages/youbot_description
+copying /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_description/build/lib/youbot_description/__init__.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/lib/python3.10/site-packages/youbot_description
+byte-compiling /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/lib/python3.10/site-packages/youbot_description/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/ament_index
+creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/ament_index/resource_index
+creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/ament_index/resource_index/packages
+copying resource/youbot_description -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/ament_index/resource_index/packages
+copying package.xml -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description
+creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/urdfs
+copying urdfs/youbot.urdf -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/urdfs
+creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes
+creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/sensors
+copying meshes/sensors/asus_xtion_pro_live_base.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/sensors
+copying meshes/sensors/hokuyo_convex.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/sensors
+copying meshes/sensors/asus_xtion_pro_live_camera.png -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/sensors
+copying meshes/sensors/kinect.tga -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/sensors
+copying meshes/sensors/asus_xtion_pro_live_camera.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/sensors
+copying meshes/sensors/hokuyo.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/sensors
+copying meshes/sensors/asus_xtion_pro_live_base.png -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/sensors
+copying meshes/sensors/microsoft_lifecam.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/sensors
+copying meshes/sensors/kinect.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/sensors
+creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_plate
+copying meshes/youbot_plate/plate_convex.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_plate
+copying meshes/youbot_plate/plate.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_plate
+creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_arm
+copying meshes/youbot_arm/arm1.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_arm
+copying meshes/youbot_arm/arm0.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_arm
+copying meshes/youbot_arm/arm2.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_arm
+copying meshes/youbot_arm/arm3.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_arm
+copying meshes/youbot_arm/arm0_convex.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_arm
+copying meshes/youbot_arm/arm5_convex.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_arm
+copying meshes/youbot_arm/arm4.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_arm
+copying meshes/youbot_arm/arm5.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_arm
+copying meshes/youbot_arm/arm2_convex.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_arm
+copying meshes/youbot_arm/arm4_convex.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_arm
+copying meshes/youbot_arm/arm1_convex.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_arm
+copying meshes/youbot_arm/arm3_convex.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_arm
+creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_gripper
+copying meshes/youbot_gripper/palm_convex.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_gripper
+copying meshes/youbot_gripper/finger_convex.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_gripper
+copying meshes/youbot_gripper/palm.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_gripper
+copying meshes/youbot_gripper/finger.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_gripper
+creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_base
+copying meshes/youbot_base/base.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_base
+copying meshes/youbot_base/base_convex.dae -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/share/youbot_description/meshes/youbot_base
+running install_egg_info
+Copying ../../../../build/youbot_description/youbot_description.egg-info to /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_description/lib/python3.10/site-packages/youbot_description-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_description/install.log'

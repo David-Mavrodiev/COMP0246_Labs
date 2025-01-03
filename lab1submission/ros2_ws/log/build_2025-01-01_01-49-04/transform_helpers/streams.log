@@ -1,0 +1,24 @@
+[2.299s] Invoking command in '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/src/COMP0246_Labs/lab1submission/transform_helpers': CONDA_PROMPT_MODIFIER=(roboenv-py3.10) PYTHONPATH=/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/transform_helpers/prefix_override:/Users/davidm/miniforge3/envs/roboenv-py3.10/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/lib/python3.10/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /Users/davidm/miniforge3/envs/roboenv-py3.10/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/transform_helpers build --build-base /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/transform_helpers/build install --record /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/transform_helpers/install.log --single-version-externally-managed install_data
+[3.445s] running egg_info
+[3.542s] writing ../../../../build/transform_helpers/transform_helpers.egg-info/PKG-INFO
+[3.603s] writing dependency_links to ../../../../build/transform_helpers/transform_helpers.egg-info/dependency_links.txt
+[3.782s] writing entry points to ../../../../build/transform_helpers/transform_helpers.egg-info/entry_points.txt
+[3.888s] writing requirements to ../../../../build/transform_helpers/transform_helpers.egg-info/requires.txt
+[3.963s] writing top-level names to ../../../../build/transform_helpers/transform_helpers.egg-info/top_level.txt
+[4.062s] reading manifest file '../../../../build/transform_helpers/transform_helpers.egg-info/SOURCES.txt'
+[4.063s] writing manifest file '../../../../build/transform_helpers/transform_helpers.egg-info/SOURCES.txt'
+[4.064s] running build
+[4.064s] running build_py
+[4.064s] copying transform_helpers/main.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/transform_helpers/build/lib/transform_helpers
+[4.065s] running install
+[4.070s] running install_lib
+[4.155s] copying /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/transform_helpers/build/lib/transform_helpers/main.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/lib/python3.10/site-packages/transform_helpers
+[4.156s] byte-compiling /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/lib/python3.10/site-packages/transform_helpers/main.py to main.cpython-310.pyc
+[4.158s] running install_data
+[4.158s] running install_egg_info
+[4.247s] removing '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/lib/python3.10/site-packages/transform_helpers-0.0.0-py3.10.egg-info' (and everything under it)
+[4.248s] Copying ../../../../build/transform_helpers/transform_helpers.egg-info to /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/lib/python3.10/site-packages/transform_helpers-0.0.0-py3.10.egg-info
+[4.252s] running install_scripts
+[4.443s] Installing main script to /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/lib/transform_helpers
+[4.444s] writing list of installed files to '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/transform_helpers/install.log'
+[4.486s] Invoked command in '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/src/COMP0246_Labs/lab1submission/transform_helpers' returned '0': CONDA_PROMPT_MODIFIER=(roboenv-py3.10) PYTHONPATH=/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/transform_helpers/prefix_override:/Users/davidm/miniforge3/envs/roboenv-py3.10/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/transform_helpers/lib/python3.10/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /Users/davidm/miniforge3/envs/roboenv-py3.10/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/transform_helpers build --build-base /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/transform_helpers/build install --record /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/transform_helpers/install.log --single-version-externally-managed install_data

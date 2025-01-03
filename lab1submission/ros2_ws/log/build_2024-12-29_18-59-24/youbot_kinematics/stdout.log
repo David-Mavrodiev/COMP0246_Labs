@@ -1,0 +1,70 @@
+running egg_info
+creating ../../../../build/youbot_kinematics/youbot_kinematics.egg-info
+writing ../../../../build/youbot_kinematics/youbot_kinematics.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/youbot_kinematics/youbot_kinematics.egg-info/dependency_links.txt
+writing entry points to ../../../../build/youbot_kinematics/youbot_kinematics.egg-info/entry_points.txt
+writing requirements to ../../../../build/youbot_kinematics/youbot_kinematics.egg-info/requires.txt
+writing top-level names to ../../../../build/youbot_kinematics/youbot_kinematics.egg-info/top_level.txt
+writing manifest file '../../../../build/youbot_kinematics/youbot_kinematics.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/youbot_kinematics/youbot_kinematics.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/youbot_kinematics/youbot_kinematics.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build
+creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib
+creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics
+copying youbot_kinematics/youbotKineStudent.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics
+copying youbot_kinematics/urdf_parser.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics
+copying youbot_kinematics/__init__.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics
+copying youbot_kinematics/youbotKineKDL.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics
+copying youbot_kinematics/youbotKineBase.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics
+copying youbot_kinematics/plan_trajectory.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics
+copying youbot_kinematics/urdf.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics
+copying youbot_kinematics/target_data.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics
+creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics/xml_reflection
+copying youbot_kinematics/xml_reflection/__init__.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics/xml_reflection
+copying youbot_kinematics/xml_reflection/core.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics/xml_reflection
+copying youbot_kinematics/xml_reflection/basics.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics/xml_reflection
+running install
+running install_lib
+creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics
+copying /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics/youbotKineStudent.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics
+creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics/xml_reflection
+copying /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics/xml_reflection/__init__.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics/xml_reflection
+copying /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics/xml_reflection/core.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics/xml_reflection
+copying /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics/xml_reflection/basics.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics/xml_reflection
+copying /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics/urdf_parser.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics
+copying /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics/__init__.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics
+copying /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics/youbotKineKDL.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics
+copying /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics/youbotKineBase.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics
+copying /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics/plan_trajectory.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics
+copying /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics/urdf.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics
+copying /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/build/lib/youbot_kinematics/target_data.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics
+byte-compiling /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics/youbotKineStudent.py to youbotKineStudent.cpython-310.pyc
+byte-compiling /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics/xml_reflection/__init__.py to __init__.cpython-310.pyc
+byte-compiling /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics/xml_reflection/core.py to core.cpython-310.pyc
+byte-compiling /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics/xml_reflection/basics.py to basics.cpython-310.pyc
+byte-compiling /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics/urdf_parser.py to urdf_parser.cpython-310.pyc
+byte-compiling /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics/__init__.py to __init__.cpython-310.pyc
+byte-compiling /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics/youbotKineKDL.py to youbotKineKDL.cpython-310.pyc
+byte-compiling /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics/youbotKineBase.py to youbotKineBase.cpython-310.pyc
+byte-compiling /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics/plan_trajectory.py to plan_trajectory.cpython-310.pyc
+byte-compiling /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics/urdf.py to urdf.cpython-310.pyc
+byte-compiling /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics/target_data.py to target_data.cpython-310.pyc
+running install_data
+creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/share/ament_index
+creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/share/ament_index/resource_index
+creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/share/ament_index/resource_index/packages
+copying resource/youbot_kinematics -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/share/ament_index/resource_index/packages
+copying package.xml -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/share/youbot_kinematics
+creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/share/youbot_kinematics/config
+copying config/viz.rviz -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/share/youbot_kinematics/config
+creating /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/share/youbot_kinematics/launch
+copying launch/bringup.launch.py -> /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/share/youbot_kinematics/launch
+running install_egg_info
+Copying ../../../../build/youbot_kinematics/youbot_kinematics.egg-info to /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/python3.10/site-packages/youbot_kinematics-0.0.0-py3.10.egg-info
+running install_scripts
+Installing main_kdl script to /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/youbot_kinematics
+Installing main_student script to /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/youbot_kinematics
+Installing plan_trajectory script to /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/youbot_kinematics/lib/youbot_kinematics
+writing list of installed files to '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/youbot_kinematics/install.log'

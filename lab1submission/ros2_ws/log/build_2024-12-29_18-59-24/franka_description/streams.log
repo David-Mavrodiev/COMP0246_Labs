@@ -1,0 +1,169 @@
+[0.091s] Invoking command in '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/franka_description': CMAKE_PREFIX_PATH=/Users/davidm/miniforge3/envs/roboenv-py3.10 CONDA_PROMPT_MODIFIER=(roboenv-py3.10) SHLVL=2 _=/usr/bin/env /Users/davidm/miniforge3/envs/roboenv-py3.10/bin/cmake /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/src/COMP0246_Labs/franka_description -DCMAKE_INSTALL_PREFIX=/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description
+[19.430s] -- The C compiler identification is AppleClang 15.0.0.15000040
+[19.776s] -- The CXX compiler identification is AppleClang 15.0.0.15000040
+[19.798s] -- Detecting C compiler ABI info
+[20.843s] -- Detecting C compiler ABI info - done
+[20.856s] -- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - skipped
+[20.856s] -- Detecting C compile features
+[20.857s] -- Detecting C compile features - done
+[20.867s] -- Detecting CXX compiler ABI info
+[21.479s] -- Detecting CXX compiler ABI info - done
+[21.494s] -- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ - skipped
+[21.494s] -- Detecting CXX compile features
+[21.496s] -- Detecting CXX compile features - done
+[21.542s] -- Found ament_cmake: 1.3.3 (/Users/davidm/miniforge3/envs/roboenv-py3.10/share/ament_cmake/cmake)
+[23.232s] -- Found Python3: /Library/Frameworks/Python.framework/Versions/3.12/bin/python3.12 (found version "3.12.4") found components: Interpreter 
+[23.853s] -- Found ament_lint_auto: 0.12.5 (/Users/davidm/miniforge3/envs/roboenv-py3.10/share/ament_lint_auto/cmake)
+[26.554s] -- Added test 'copyright' to check source files copyright and LICENSE
+[26.589s] -- Added test 'flake8' to check Python code syntax and style conventions
+[26.595s] -- Added test 'lint_cmake' to check CMake code style
+[26.598s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[26.615s] -- Added test 'xmllint' to check XML markup files
+[26.619s] -- Configuring done (20.1s)
+[26.656s] -- Generating done (0.0s)
+[26.667s] -- Build files have been written to: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/franka_description
+[26.678s] Invoked command in '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/franka_description' returned '0': CMAKE_PREFIX_PATH=/Users/davidm/miniforge3/envs/roboenv-py3.10 CONDA_PROMPT_MODIFIER=(roboenv-py3.10) SHLVL=2 _=/usr/bin/env /Users/davidm/miniforge3/envs/roboenv-py3.10/bin/cmake /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/src/COMP0246_Labs/franka_description -DCMAKE_INSTALL_PREFIX=/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description
+[26.681s] Invoking command in '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/franka_description': CMAKE_PREFIX_PATH=/Users/davidm/miniforge3/envs/roboenv-py3.10 CONDA_PROMPT_MODIFIER=(roboenv-py3.10) SHLVL=2 _=/usr/bin/env /Users/davidm/miniforge3/envs/roboenv-py3.10/bin/cmake --build /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/franka_description -- -j8 -l8
+[26.817s] Invoked command in '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/franka_description' returned '0': CMAKE_PREFIX_PATH=/Users/davidm/miniforge3/envs/roboenv-py3.10 CONDA_PROMPT_MODIFIER=(roboenv-py3.10) SHLVL=2 _=/usr/bin/env /Users/davidm/miniforge3/envs/roboenv-py3.10/bin/cmake --build /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/franka_description -- -j8 -l8
+[26.851s] Invoking command in '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/franka_description': CMAKE_PREFIX_PATH=/Users/davidm/miniforge3/envs/roboenv-py3.10 CONDA_PROMPT_MODIFIER=(roboenv-py3.10) SHLVL=2 _=/usr/bin/env /Users/davidm/miniforge3/envs/roboenv-py3.10/bin/cmake --install /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/franka_description
+[26.875s] -- Install configuration: ""
+[26.875s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//launch
+[26.877s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//launch/visualize_franka.launch.py
+[26.877s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots
+[26.878s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/fp3
+[26.878s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/fp3/joint_limits.yaml
+[26.879s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/fp3/fp3.urdf.xacro
+[26.880s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/fp3/kinematics.yaml
+[26.881s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/fp3/dynamics.yaml
+[26.882s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/fp3/inertials.yaml
+[26.883s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/fr3
+[26.883s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/fr3/joint_limits.yaml
+[26.884s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/fr3/kinematics.yaml
+[26.884s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/fr3/dynamics.yaml
+[26.885s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/fr3/inertials.yaml
+[26.886s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/fr3/fr3.urdf.xacro
+[26.886s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/common
+[26.887s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/common/franka_arm.ros2_control.xacro
+[26.887s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/common/franka_robot.xacro
+[26.888s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/common/franka_arm.xacro
+[26.889s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/common/utils.xacro
+[26.890s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/fer
+[26.890s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/fer/joint_limits.yaml
+[26.891s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/fer/kinematics.yaml
+[26.892s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/fer/dynamics.yaml
+[26.893s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/fer/inertials.yaml
+[26.894s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//robots/fer/fer.urdf.xacro
+[26.895s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//end_effectors
+[26.895s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//end_effectors/cobot_pump
+[26.895s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//end_effectors/cobot_pump/cobot_pump.urdf.xacro
+[26.896s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//end_effectors/cobot_pump/inertials.yaml
+[26.896s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//end_effectors/cobot_pump/cobot_pump_arguments.xacro
+[26.897s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//end_effectors/franka_hand
+[26.897s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//end_effectors/franka_hand/franka_hand.urdf.xacro
+[26.898s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//end_effectors/franka_hand/franka_hand_arguments.xacro
+[26.899s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//end_effectors/franka_hand/inertials.yaml
+[26.899s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//end_effectors/common
+[26.900s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//end_effectors/common/ee_with_one_link.xacro
+[26.900s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//end_effectors/common/franka_hand.xacro
+[26.901s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//end_effectors/common/utils.xacro
+[26.902s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes
+[26.903s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee
+[26.903s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black
+[26.904s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/visual
+[26.904s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/visual/hand.dae
+[26.910s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/visual/finger.dae
+[26.913s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/collision
+[26.914s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/collision/hand.stl
+[26.914s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee/cobot_pump
+[26.915s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee/cobot_pump/visual
+[26.915s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee/cobot_pump/visual/cobot_pump.dae
+[26.955s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee/cobot_pump/collision
+[26.956s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee/cobot_pump/collision/cobot_pump.stl
+[26.987s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white
+[26.987s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/visual
+[26.987s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/visual/hand.dae
+[26.993s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/visual/finger.dae
+[26.995s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/collision
+[26.995s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/collision/hand.stl
+[26.996s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms
+[26.997s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3
+[26.997s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual
+[26.997s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link4.dae
+[27.009s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link5.dae
+[27.028s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link7.dae
+[27.046s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link6.dae
+[27.071s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link2.dae
+[27.081s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link3.dae
+[27.095s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link1.dae
+[27.101s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link0.dae
+[27.129s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision
+[27.129s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link3.stl
+[27.134s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link2.stl
+[27.135s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link0.stl
+[27.136s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link1.stl
+[27.137s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link5.stl
+[27.138s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link4.stl
+[27.139s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link6.stl
+[27.140s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link7.stl
+[27.141s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3
+[27.141s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual
+[27.142s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link4.dae
+[27.154s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link5.dae
+[27.170s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link7.dae
+[27.192s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link6.dae
+[27.216s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link2.dae
+[27.224s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link3.dae
+[27.238s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link1.dae
+[27.249s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link0.dae
+[27.298s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision
+[27.299s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link3.stl
+[27.303s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link2.stl
+[27.304s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link0.stl
+[27.305s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link1.stl
+[27.306s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link5.stl
+[27.307s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link4.stl
+[27.308s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link6.stl
+[27.311s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link7.stl
+[27.314s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer
+[27.314s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual
+[27.314s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link4.dae
+[27.326s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link5.dae
+[27.340s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link7.dae
+[27.352s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link6.dae
+[27.363s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link2.dae
+[27.371s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link3.dae
+[27.380s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link1.dae
+[27.386s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link0.dae
+[27.401s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/hand.dae
+[27.407s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/finger.dae
+[27.410s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision
+[27.411s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/hand.stl
+[27.412s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link3.stl
+[27.413s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link2.stl
+[27.414s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link0.stl
+[27.415s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link1.stl
+[27.416s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link5.stl
+[27.417s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link4.stl
+[27.418s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link6.stl
+[27.419s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link7.stl
+[27.420s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//rviz
+[27.420s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//rviz/visualize_franka.rviz
+[27.421s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//urdfs
+[27.421s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//urdfs/fr3.urdf
+[27.422s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description//urdfs/fr3_franka_hand.urdf
+[27.424s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/ament_index/resource_index/package_run_dependencies/franka_description
+[27.424s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/ament_index/resource_index/parent_prefix_path/franka_description
+[27.425s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description/environment/ament_prefix_path.sh
+[27.426s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description/environment/ament_prefix_path.dsv
+[27.427s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description/environment/path.sh
+[27.428s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description/environment/path.dsv
+[27.428s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description/local_setup.bash
+[27.428s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description/local_setup.sh
+[27.429s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description/local_setup.zsh
+[27.429s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description/local_setup.dsv
+[27.430s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description/package.dsv
+[27.431s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/ament_index/resource_index/packages/franka_description
+[27.432s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description/cmake/franka_descriptionConfig.cmake
+[27.432s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description/cmake/franka_descriptionConfig-version.cmake
+[27.433s] -- Installing: /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/install/franka_description/share/franka_description/package.xml
+[27.436s] Invoked command in '/Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/franka_description' returned '0': CMAKE_PREFIX_PATH=/Users/davidm/miniforge3/envs/roboenv-py3.10 CONDA_PROMPT_MODIFIER=(roboenv-py3.10) SHLVL=2 _=/usr/bin/env /Users/davidm/miniforge3/envs/roboenv-py3.10/bin/cmake --install /Users/davidm/Documents/repos/ucl/COMP0246_Labs/lab1submission/ros2_ws/build/franka_description

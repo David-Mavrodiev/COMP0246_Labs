@@ -16,11 +16,25 @@ class YoubotKinematicStudent(YoubotKinematicBase):
                                 146 * np.pi / 180,
                                 -102.5 * np.pi / 180,
                                 -167.5 * np.pi / 180]
+        # youbot_joint_offsets = [
+        #     2.96705972839,    # Joint 1 offset (~170 degrees)
+        #     -1.1344640138,    # Joint 2 offset (~-65 degrees)
+        #     2.54818070791,    # Joint 3 offset (~146 degrees)
+        #     -1.78896248329,   # Joint 4 offset (~-102.5 degrees)
+        #     2.92342649709     # Joint 5 offset (~167.5 degrees)
+        # ]
 
         self.dh_params['theta'] = [theta + offset for theta, offset in
                                    zip(self.dh_params['theta'], youbot_joint_offsets)]
 
         self.youbot_joint_readings_polarity = [-1, 1, 1, 1, 1]
+        # self.youbot_joint_readings_polarity = [
+        #     -1,  # Joint 1
+        #     1,  # Joint 2
+        #     1,  # Joint 3
+        #     1,  # Joint 4
+        #     -1   # Joint 5
+        # ]
 
     def forward_kinematics(self, joints_readings, up_to_joint=5):
         T = np.identity(4)
@@ -38,32 +52,53 @@ class YoubotKinematicStudent(YoubotKinematicBase):
         return T
 
     def get_jacobian(self, joint):
-        assert isinstance(joint, list)
-        assert len(joint) == 5
-
-        z = np.array([0, 0, -1])  # KDL Jacobian uses this convention
-        J = np.zeros((6, 5))
-
+        """
+        Computes the Jacobian matrix for the given joint angles using the Standard DH convention.
+        
+        Args:
+            joint (list or np.ndarray): Current joint angles [q1, q2, q3, q4, q5].
+        
+        Returns:
+            np.ndarray: Jacobian matrix (6x5).
+        """
+        # Validate input
+        if not isinstance(joint, (list, np.ndarray)) or len(joint) != 5:
+            raise ValueError("Joint angles must be a list or numpy array of length 5.")
+        
+        # Apply joint polarities
+        adjusted_joint = [joint[i] * self.youbot_joint_readings_polarity[i] for i in range(5)]
+        
+        # Initialize Transformation Matrix as Identity
         T = np.eye(4)
-        positions = []
-        z_vectors = [np.array([0, 0, 1])]
-
+        
+        # Initialize lists for positions and Z-axes
+        positions = [T[:3, 3]]
+        z_vectors = [np.array([0, 0, -1])]  # Corrected to match Joint 1's polarity
+        
+        # Compute transformations for each joint
         for i in range(5):
-            A = self.standard_dh(self.dh_params['a'][i],
-                                 self.dh_params['alpha'][i],
-                                 self.dh_params['d'][i],
-                                 self.dh_params['theta'][i] + joint[i])
-            T = T.dot(A)
+            A = self.standard_dh(
+                self.dh_params['a'][i],
+                self.dh_params['alpha'][i],
+                self.dh_params['d'][i],
+                self.dh_params['theta'][i] + adjusted_joint[i]
+            )
+            T = T @ A
             positions.append(T[:3, 3])
             z_vectors.append(T[:3, 2])
-
+        
+        # Compute Jacobian
+        o_n = positions[-1]
+        J = np.zeros((6, 5))
         for i in range(5):
-            J[:3, i] = np.cross(z_vectors[i], positions[-1] - positions[i])
-            J[3:, i] = z_vectors[i]
+            J_v = np.cross(z_vectors[i], o_n - positions[i])
+            J_w = z_vectors[i]
+            J[:3, i] = J_v
+            J[3:, i] = J_w
 
-        jacobian = J
-        assert jacobian.shape == (6, 5)
-        return jacobian
+        #J[np.abs(J) < 1e-8] = 0.00000000e+00
+
+        return J
 
     def check_singularity(self, joint):
         assert isinstance(joint, list)
